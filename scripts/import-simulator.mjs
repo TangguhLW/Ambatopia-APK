@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';
+const root='research/simulator-current/';const list=JSON.parse(await fs.readFile(root+'data-weather.json'));await fs.mkdir('assets/simulator/weather',{recursive:true});
+const queue=[...list],failures=[];await Promise.all(Array.from({length:4},async()=>{while(queue.length){const row=queue.shift();try{const response=await fetch('https://growtopiasimulator.com/edit/atlas/wx/'+encodeURIComponent(row.k)+'.jpg');if(!response.ok)throw Error(response.status);await fs.writeFile('assets/simulator/weather/'+row.k+'.jpg',Buffer.from(await response.arrayBuffer()));}catch(e){failures.push({key:row.k,error:e.message});}}}));
+await fs.mkdir('data/simulator',{recursive:true});for(const [from,to] of [['data-world-items.json','items.json'],['data-weather.json','weather.json'],['data-wx.json','weather-layers.json'],['data-world-rules_use.json','use.json'],['data-world-rules_extra.json','extra.json']])await fs.copyFile(root+from,'data/simulator/'+to);
+console.log(JSON.stringify({weather:list.length,failures}));

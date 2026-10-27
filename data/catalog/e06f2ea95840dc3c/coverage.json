@@ -1,0 +1,35 @@
+{
+  "source_version": 27,
+  "source_sha256": "eff775961cc8d62fd7e523990a0ecbc9421d34fda210c32bf954b2383e31d921",
+  "declared": 16434,
+  "parsed": 16434,
+  "bytes_consumed": 5748732,
+  "total_bytes": 5748732,
+  "unique": 16434,
+  "local_textures": 109,
+  "asset_available": 16434,
+  "preview": 8188,
+  "equipment": 1411,
+  "reference_verified": 10,
+  "effect_reference_entries": 2100,
+  "effect_semantics_documented": 2,
+  "effect_gameplay_implemented": 4,
+  "effect_visual_implemented": 0,
+  "wiki_corroborated": 5,
+  "unknown_v27_extensions": 18,
+  "failures": [],
+  "conflicts": [],
+  "diff": {
+    "added": [],
+    "changed": [],
+    "removed": []
+  },
+  "limitations": [
+    "All records parsed structurally; unknown raw fields retained, not semantically decoded",
+    "Seed composites intentionally have no generic block thumbnail",
+    "Static preview bounds do not prove native animation, special layers or effects",
+    "1411 supported static wearables; special renderer clothing remains unavailable",
+    "No titles/badges invented from ordinary item names",
+    "Gameplay abilities are enforced by the shared session server; persistent public accounts are not implemented"
+  ]
+}

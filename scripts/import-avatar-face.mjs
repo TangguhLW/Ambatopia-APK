@@ -1,0 +1,12 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {decodeTexture,upright,png} from './import-assets.mjs';
+const source='game/player_eyes2.rttex';
+const raw=await readFile('C:/Users/user/AppData/Local/Growtopia/'+source), image=upright(decodeTexture(raw)), output=png(image);
+const sha=b=>createHash('sha256').update(b).digest('hex');
+await writeFile('assets/reference/eyes2.png',output);
+const path='assets/reference/manifest.json',manifest=JSON.parse(await readFile(path));
+const row={id:'eyes2',source,sha256:sha(raw),width:image.width,height:image.height,originalWidth:image.originalWidth,originalHeight:image.originalHeight,output_file:'eyes2.png',output_sha256:sha(output),transform:'vertical row reversal: bottom-up RTTEX to top-down PNG',evidence:'Local eye-pupil overlay; source expression frame matched to the reference draw sequence.'};
+const index=manifest.findIndex(x=>x.id==='eyes2'); if(index<0)manifest.push(row);else manifest[index]=row;
+await writeFile(path,JSON.stringify(manifest,null,2));
+console.log(JSON.stringify({source,width:image.width,height:image.height,sha256:row.sha256}));

@@ -1,0 +1,2 @@
+import {readFile} from 'node:fs/promises';import {decodeTexture,upright} from './import-assets.mjs';
+for(const id of ['player_body_only','player_head','player_feet']){const im=upright(decodeTexture(await readFile('C:/Users/user/AppData/Local/Growtopia/game/'+id+'.rttex')));for(const cy of [0,32]){let minX=32,minY=32,maxX=-1,maxY=-1;for(let y=0;y<32;y++)for(let x=0;x<32;x++){const a=im.pixels[((y+cy)*im.width+x)*4+3];if(a){minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);}}console.log(id,cy,[minX,minY,maxX,maxY]);}}

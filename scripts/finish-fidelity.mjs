@@ -1,0 +1,10 @@
+import {readFile,writeFile,stat} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const folder='evidence/fidelity-2026-10-22';
+const previous=JSON.parse(await readFile('evidence/acceptance.json','utf8'));
+await writeFile(folder+'/baseline-acceptance.json',JSON.stringify(previous,null,2));
+const report={date:'2026-10-22',milestone:'Reference visual revision; local Windows and physical Android',verified:{godot_checks:132,godot_failures:0,node_tests:8,windows_exported_runtime_checks:16,android_physical_device_checks:16,texture_pixel_equivalence:34},ambatopia_changes:false,public_deployment:false,artifacts:[],comparison:'http://127.0.0.1:4190/',limits:['Local simulation only; native physics/timings remain provisional','Gameplay capture is a different world state from tutorial reference','Partial prefix catalog: 127 recovered / 16434 declared; not full parser','Android p95 19.257 ms; does not meet 16.7 ms target','No official authentication, shared multiplayer, economy or full effects']};
+for(const path of ['build/windows/GrowtopiaReconstruction.exe','build/android/GrowtopiaReconstruction.apk'])report.artifacts.push({path,bytes:(await stat(path)).size,sha256:createHash('sha256').update(await readFile(path)).digest('hex')});
+await writeFile(folder+'/result.json',JSON.stringify(report,null,2));
+await writeFile('evidence/acceptance.json',JSON.stringify(report,null,2));
+console.log(report);

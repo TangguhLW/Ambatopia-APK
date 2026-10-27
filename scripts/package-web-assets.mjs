@@ -1,0 +1,6 @@
+import {readFile,writeFile,readdir,mkdir,stat} from 'node:fs/promises';import {resolve,relative,join} from 'node:path';import {createHash} from 'node:crypto';
+const root=resolve('web-client/dist'),out=resolve(process.argv[2]);if(!out.startsWith(resolve('web-client/android')+'/')&&!out.startsWith(resolve('web-client/android')+'\\'))throw Error('Package output must stay in the Android workspace');
+await mkdir(out+'/web-objects',{recursive:true});const paths={},unique=new Set();let bytes=0;
+async function walk(folder){for(const e of await readdir(folder,{withFileTypes:true})){const f=join(folder,e.name);if(e.isDirectory())await walk(f);else{if(e.name.endsWith('.map'))continue;const b=await readFile(f),hash=createHash('sha256').update(b).digest('hex');paths['/'+relative(root,f).replaceAll('\\','/')]=hash;if(!unique.has(hash)){unique.add(hash);bytes+=b.length;await writeFile(out+'/web-objects/'+hash,b);}}}}
+await walk(root);await writeFile(out+'/web-index.json',JSON.stringify(paths));console.log('APK local resources:',Object.keys(paths).length,'paths,',unique.size,'unique blobs,',Math.round(bytes/1048576),'MiB raw');
+await writeFile('evidence/web-client/package-assets.json',JSON.stringify({paths:Object.keys(paths).length,unique_blobs:unique.size,uncompressed_bytes:bytes,local_https_origin:'https://appassets.androidplatform.net',deduplicated:true},null,2));

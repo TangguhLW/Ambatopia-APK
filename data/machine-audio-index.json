@@ -1,0 +1,1338 @@
+{
+  "music": {
+    "62": "audio/mp3/boombox.mp3",
+    "64": "audio/mp3/old_timey.mp3",
+    "106": "audio/toilet_flush.wav",
+    "114": "audio/mp3/loop_disco.mp3",
+    "220": "audio/mp3/naughty_princess.mp3",
+    "226": "audio/mp3/signal_jammer.mp3",
+    "230": "audio/shower.wav",
+    "246": "audio/mp3/music_box.mp3",
+    "254": "audio/mp3/loopport_dubstep.mp3",
+    "286": "audio/fire.wav",
+    "300": "audio/quack.wav",
+    "320": "audio/boom.wav",
+    "328": "audio/pop.wav",
+    "398": "audio/sizzle.wav",
+    "412": "interface/large/store_buttons3.rttex",
+    "480": "audio/mp3/jazz_loop.mp3",
+    "696": "audio/fire.wav",
+    "714": "audio/mp3/cumbia.mp3",
+    "756": "audio/slot_start.wav",
+    "758": "audio/wheel.wav",
+    "786": "audio/mp3/unspeakable.mp3",
+    "842": "audio/mp3/hula.mp3",
+    "974": "audio/obelisk.wav",
+    "1048": "audio/mp3/campfire.mp3",
+    "1196": "audio/mp3/loonysong.mp3",
+    "1276": "audio/mp3/signal_jammer.mp3",
+    "1278": "audio/mp3/signal_jammer.mp3",
+    "1434": "audio/cash_register.wav",
+    "1448": "audio/mp3/western.mp3",
+    "1596": "audio/mp3/about_theme.mp3",
+    "1724": "audio/drumloop.wav",
+    "1754": "audio/mp3/battle_theme_loop.mp3",
+    "1942": "audio/mp3/funtime.mp3",
+    "2282": "audio/mp3/you_row.mp3",
+    "2858": "audio/fire.wav",
+    "2964": "audio/rain_loop.wav",
+    "2968": "audio/splash.wav",
+    "3088": "audio/mp3/theme3.mp3",
+    "3616": "audio/mp3/scary1.mp3",
+    "3750": "audio/mp3/signal_jammer.mp3",
+    "4192": "game/tiles_page7.rttex",
+    "4380": "audio/mp3/doctor.mp3",
+    "4758": "audio/tsktsk.wav",
+    "4884": "audio/mp3/signal_jammer.mp3",
+    "4922": "audio/bell.wav",
+    "4992": "audio/mp3/signal_jammer.mp3",
+    "5106": "audio/mp3/windchimes.mp3",
+    "5198": "audio/lil_hiss.wav",
+    "5242": "audio/mp3/death_metal_radio.mp3",
+    "5658": "audio/mp3/love_birds.mp3",
+    "5732": "audio/harp.wav",
+    "5768": "audio/cracker_bang_2.wav",
+    "5990": "audio/bell.wav",
+    "6076": "audio/boo_pke_warning_light.wav",
+    "6100": "audio/fire.wav",
+    "6158": "audio/shower.wav",
+    "6170": "audio/fire.wav",
+    "6306": "audio/pop.wav",
+    "7294": "audio/toilet_flush.wav",
+    "7688": "audio/prayer_wheel.wav",
+    "7870": "audio/fire.wav",
+    "8524": "audio/mp3/spooky_tiki.mp3",
+    "9042": "audio/babycry.wav",
+    "9046": "audio/fire.wav",
+    "9126": "audio/bell.wav",
+    "9628": "audio/trampoline.wav",
+    "10912": "audio/mp3/pineapple_record_player.mp3",
+    "11058": "audio/bell.wav",
+    "11602": "audio/fire.wav",
+    "12008": "audio/mp3/PineappleDisco2022.mp3",
+    "14320": "audio/fire.wav",
+    "14920": "audio/gong.wav",
+    "15084": "audio/mp3/choir2.mp3",
+    "15126": "audio/fire.wav",
+    "15832": "audio/bell.wav",
+    "16108": "audio/clatter2.wav",
+    "16110": "audio/clatter2.wav",
+    "16112": "audio/clatter2.wav",
+    "16114": "audio/clatter2.wav",
+    "16116": "audio/clatter2.wav",
+    "16118": "audio/clatter2.wav",
+    "16120": "audio/clatter2.wav",
+    "16122": "audio/clatter2.wav"
+  },
+  "sfx": {
+    "106": {
+      "name": "Toilet",
+      "kind": "sfx_fg",
+      "sound": "toilet_flush.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "230": {
+      "name": "Bathtub",
+      "kind": "sfx_fg",
+      "sound": "shower.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "300": {
+      "name": "Rubber Ducky",
+      "kind": "sfx_fg",
+      "sound": "quack.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "320": {
+      "name": "Cannon",
+      "kind": "sfx_fg",
+      "sound": "boom.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "328": {
+      "name": "Bubble Wrap",
+      "kind": "sfx_bg",
+      "sound": "pop.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "412": {
+      "name": "Sheet Music: Blank",
+      "kind": "sheet_music",
+      "sound": null,
+      "trigger": "no sound; counts as part of the play region",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "414": {
+      "name": "Sheet Music: Bass Note",
+      "kind": "sheet_music",
+      "sound": "notes/bass_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "bass",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "416": {
+      "name": "Sheet Music: Sharp Bass",
+      "kind": "sheet_music",
+      "sound": "notes/bass_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "bass",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "418": {
+      "name": "Sheet Music: Flat Bass",
+      "kind": "sheet_music",
+      "sound": "notes/bass_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "bass",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "420": {
+      "name": "Sheet Music: Piano Note",
+      "kind": "sheet_music",
+      "sound": "notes/piano_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "piano",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "422": {
+      "name": "Sheet Music: Sharp Piano",
+      "kind": "sheet_music",
+      "sound": "notes/piano_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "piano",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "424": {
+      "name": "Sheet Music: Flat Piano",
+      "kind": "sheet_music",
+      "sound": "notes/piano_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "piano",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "426": {
+      "name": "Sheet Music: Drums",
+      "kind": "sheet_music",
+      "sound": "notes/drum_<y % 7>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "756": {
+      "name": "Slot Machine",
+      "kind": "sfx_fg",
+      "sound": "slot_start.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "758": {
+      "name": "Roulette Wheel",
+      "kind": "sfx_fg",
+      "sound": "wheel.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "974": {
+      "name": "Obelisk",
+      "kind": "sfx_fg",
+      "sound": "obelisk.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "1434": {
+      "name": "Cash Register",
+      "kind": "sfx_fg",
+      "sound": "cash_register.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "1724": {
+      "name": "Drumkit",
+      "kind": "sfx_fg",
+      "sound": "drumloop.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "2968": {
+      "name": "Sink",
+      "kind": "sfx_fg",
+      "sound": "splash.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "4192": {
+      "name": "Sheet Music: Spooky",
+      "kind": "sheet_music",
+      "sound": "notes/spooky_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "spooky",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "4634": {
+      "name": "Sheet Music: Sax Note",
+      "kind": "sheet_music",
+      "sound": "notes/sax_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "sax",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "4636": {
+      "name": "Sheet Music: Sharp Sax",
+      "kind": "sheet_music",
+      "sound": "notes/sax_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "sax",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "4638": {
+      "name": "Sheet Music: Flat Sax",
+      "kind": "sheet_music",
+      "sound": "notes/sax_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "sax",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "4640": {
+      "name": "Sheet Music: Repeat Begin",
+      "kind": "sheet_music",
+      "sound": null,
+      "trigger": "no sound; marks the loop start for its row slot",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "4642": {
+      "name": "Sheet Music: Repeat End",
+      "kind": "sheet_music",
+      "sound": null,
+      "trigger": "no sound; jumps back to the row slot's Repeat Begin once per pass",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "4922": {
+      "name": "Target",
+      "kind": "sfx_fg",
+      "sound": "bell.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "5198": {
+      "name": "Zen Garden",
+      "kind": "sfx_bg",
+      "sound": "lil_hiss.wav",
+      "trigger": "player body centre enters the tile (background layer); every entry",
+      "audio_volume_ms": 24,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "5246": {
+      "name": "Totally Harmless Doll",
+      "kind": "sfx_fg",
+      "sound": "gate_open.wav (enter) + gate_close.wav (200 ms after leaving)",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "5370": {
+      "name": "Sheet Music: Winterfest",
+      "kind": "sheet_music",
+      "sound": "notes/festive_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "festive",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "5726": {
+      "name": "Sheet Music: Flute Note",
+      "kind": "sheet_music",
+      "sound": "notes/flute_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "flute",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "5728": {
+      "name": "Sheet Music: Sharp Flute",
+      "kind": "sheet_music",
+      "sound": "notes/flute_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "flute",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "5730": {
+      "name": "Sheet Music: Flat Flute",
+      "kind": "sheet_music",
+      "sound": "notes/flute_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "flute",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "5732": {
+      "name": "Harp",
+      "kind": "sfx_fg",
+      "sound": "harp.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "5990": {
+      "name": "Magic Bell",
+      "kind": "sfx_fg",
+      "sound": "bell.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "6030": {
+      "name": "Sheet Music: Spanish Guitar Note",
+      "kind": "sheet_music",
+      "sound": "notes/spanish_guitar_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "spanish_guitar",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "6032": {
+      "name": "Sheet Music: Sharp Spanish Guitar",
+      "kind": "sheet_music",
+      "sound": "notes/spanish_guitar_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "spanish_guitar",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "6034": {
+      "name": "Sheet Music: Flat Spanish Guitar",
+      "kind": "sheet_music",
+      "sound": "notes/spanish_guitar_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "spanish_guitar",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "6158": {
+      "name": "Royal Gilt Bathtub",
+      "kind": "sfx_fg",
+      "sound": "shower.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "6808": {
+      "name": "Sheet Music: Violin Note",
+      "kind": "sheet_music",
+      "sound": "notes/violin_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "violin",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "6810": {
+      "name": "Sheet Music: Sharp Violin",
+      "kind": "sheet_music",
+      "sound": "notes/violin_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "violin",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "6812": {
+      "name": "Sheet Music: Flat Violin",
+      "kind": "sheet_music",
+      "sound": "notes/violin_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "violin",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "7218": {
+      "name": "Sheet Music: Lyre Note",
+      "kind": "sheet_music",
+      "sound": "notes/lyre_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "lyre",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "7220": {
+      "name": "Sheet Music: Sharp Lyre",
+      "kind": "sheet_music",
+      "sound": "notes/lyre_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "lyre",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "7222": {
+      "name": "Sheet Music: Flat Lyre",
+      "kind": "sheet_music",
+      "sound": "notes/lyre_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "lyre",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "7294": {
+      "name": "The 'Other' Royal Throne",
+      "kind": "sfx_fg",
+      "sound": "toilet_flush.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "7688": {
+      "name": "Chinese Prayer Wheel",
+      "kind": "sfx_fg",
+      "sound": "prayer_wheel.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "9126": {
+      "name": "Dinner Bell",
+      "kind": "sfx_fg",
+      "sound": "bell.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "9628": {
+      "name": "Mariachi Bobble Head",
+      "kind": "sfx_fg",
+      "sound": "trampoline.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "10528": {
+      "name": "Sheet Music: Electric Guitar",
+      "kind": "sheet_music",
+      "sound": "notes/electric_guitar_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "electric_guitar",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "10530": {
+      "name": "Sheet Music: Sharp Electric Guitar",
+      "kind": "sheet_music",
+      "sound": "notes/electric_guitar_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "electric_guitar",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "10532": {
+      "name": "Sheet Music: Flat Electric Guitar",
+      "kind": "sheet_music",
+      "sound": "notes/electric_guitar_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "electric_guitar",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "10828": {
+      "name": "Sheet Music: Mexican Trumpet",
+      "kind": "sheet_music",
+      "sound": "notes/mexican_trumpet_<T[y%14]>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "mexican_trumpet",
+      "accidental": "natural",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "10830": {
+      "name": "Sheet Music: Sharp Mexican Trumpet",
+      "kind": "sheet_music",
+      "sound": "notes/mexican_trumpet_<min(T[y%14],24)+1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "mexican_trumpet",
+      "accidental": "sharp",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "10832": {
+      "name": "Sheet Music: Flat Mexican Trumpet",
+      "kind": "sheet_music",
+      "sound": "notes/mexican_trumpet_<max(T[y%14],1)-1>.wav",
+      "trigger": "world sequencer reaches its column (needs a World Lock)",
+      "instrument": "mexican_trumpet",
+      "accidental": "flat",
+      "src": [
+        "client 5.47 0x112919c (5.59 0x11a4824): column step, pitch table 0x7c218a, file per id range",
+        "client 5.47 0x112a430 / 0x112a34c / 0x1129fb8: step timer, tempo, play region; 0x112ab98 lines 190-226: note lights up",
+        "server: Sheet_Music -> BACKGROUND (Base.h:991), placed as bg (World.h:60040); no tempo support"
+      ]
+    },
+    "11058": {
+      "name": "Thermometer",
+      "kind": "sfx_fg",
+      "sound": "bell.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "14920": {
+      "name": "Enlightenment Bell",
+      "kind": "sfx_fg",
+      "sound": "gong.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "15832": {
+      "name": "Diamond Magic Bell",
+      "kind": "sfx_fg",
+      "sound": "bell.wav",
+      "trigger": "player body centre enters the tile; replays only after the player was out of it > 200 ms",
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c (5.59 0x13031dc): body-centre tile with action 11 + passable -> tile+0xb0",
+        "client 5.47 0x112ab98 (5.59 0x11a6204) lines ~528-600: play extra_file (empty -> audio/gate_open.wav) unless the 200 ms timer runs, re-arm 200 ms",
+        "server: no handling (Base.h:651 category name only)"
+      ]
+    },
+    "16108": {
+      "name": "Bar Chocolate",
+      "kind": "sfx_bg",
+      "sound": "clatter2.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "16110": {
+      "name": "Buttercream Chocolate",
+      "kind": "sfx_bg",
+      "sound": "clatter2.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "16112": {
+      "name": "Crunchy Chocolate",
+      "kind": "sfx_bg",
+      "sound": "clatter2.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "16114": {
+      "name": "Crystal Chocolate",
+      "kind": "sfx_bg",
+      "sound": "clatter2.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "16116": {
+      "name": "Hazelnut Chocolate",
+      "kind": "sfx_bg",
+      "sound": "clatter2.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "16118": {
+      "name": "Heart Chocolate",
+      "kind": "sfx_bg",
+      "sound": "clatter2.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "16120": {
+      "name": "Milky Heart Chocolate",
+      "kind": "sfx_bg",
+      "sound": "clatter2.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    },
+    "16122": {
+      "name": "Square Heart Chocolate",
+      "kind": "sfx_bg",
+      "sound": "clatter2.wav",
+      "trigger": "player body centre enters the tile (background layer); per-tile cooldown 10000 ms after leaving",
+      "audio_volume_ms": 10000,
+      "src": [
+        "items.dat extra_file / audio_volume (C:\\gtps\\beta\\core\\items.dat)",
+        "client 5.47 0x12a922c: BACKGROUND (tile+0x50) of the body-centre tile with action 22 -> tile+0xb8 (visual type 5: only on a new tile)",
+        "client 5.47 0x112ab98 lines ~238-290: visual 5 -> play each time; else play when cooldown over, cooldown = audio_volume ms",
+        "server: SFX_Background has no get_blocktype mapping (Base.h:986-1198 -> UNKNOWN) -> placed as FOREGROUND (World.h:60040)"
+      ]
+    }
+  },
+  "entries": {
+    "audio/babycry.wav": {
+      "source": "audio/babycry.wav",
+      "format": "wav",
+      "offset": 0,
+      "bytes": 331422,
+      "sha256": "1f029d41f18c9cc0b9682e8b706373743bf86140b3a90725f377b04d5e4cbcc3",
+      "mapping": "Exact source path"
+    },
+    "audio/bell.wav": {
+      "source": "audio/bell.wav",
+      "format": "wav",
+      "offset": 331422,
+      "bytes": 56652,
+      "sha256": "9395f5aa0f58e38e9c6d8cf78ab3cb92c04e1fd8b7e68eb54a2a40c71abe29a5",
+      "mapping": "Exact source path"
+    },
+    "audio/boo_pke_warning_light.wav": {
+      "source": "audio/boo_pke_warning_light.wav",
+      "format": "wav",
+      "offset": 388074,
+      "bytes": 96094,
+      "sha256": "ebb46c8a10624cb4497584ae216435d8e1e1f0b1522c923daa65e806290cf424",
+      "mapping": "Exact source path"
+    },
+    "audio/boom.wav": {
+      "source": "audio/boom.wav",
+      "format": "wav",
+      "offset": 484168,
+      "bytes": 21998,
+      "sha256": "e51b499c10fd32bd3e9fd199a6050046d6176faa71abc5189c3a6644bcf0715e",
+      "mapping": "Exact source path"
+    },
+    "audio/cash_register.wav": {
+      "source": "audio/cash_register.wav",
+      "format": "wav",
+      "offset": 506166,
+      "bytes": 37530,
+      "sha256": "7d45d40b8ae5b420025123b72f7a0a4da83d85a01024cd93151cbb0fe83e2b20",
+      "mapping": "Exact source path"
+    },
+    "audio/change_clothes.wav": {
+      "source": "audio/change_clothes.wav",
+      "format": "wav",
+      "offset": 543696,
+      "bytes": 56212,
+      "sha256": "83241b5caede686945589c8a95f2f2017832f02dca6a98116b25a629b34fd401",
+      "mapping": "Exact source path"
+    },
+    "audio/clatter2.wav": {
+      "source": "audio/clatter2.wav",
+      "format": "wav",
+      "offset": 599908,
+      "bytes": 32952,
+      "sha256": "a18c7f0ed18ea5aff0d2b9a0c8143c9b5870867c5b3bb4b86d8fc214574e5d4b",
+      "mapping": "Exact source path"
+    },
+    "audio/cracker_bang_2.wav": {
+      "source": "audio/cracker_bang_2.wav",
+      "format": "wav",
+      "offset": 632860,
+      "bytes": 11672,
+      "sha256": "bdace5aeee3b06e96435573d5216c9b71191cfb88ca904928dc5ddb9b3fc83a1",
+      "mapping": "Exact source path"
+    },
+    "audio/drumloop.wav": {
+      "source": "audio/drumloop.wav",
+      "format": "wav",
+      "offset": 644532,
+      "bytes": 192796,
+      "sha256": "24c642664ac7b872cb38923f9a6887ed3489df67320838531a6981d5f4e67acb",
+      "mapping": "Exact source path"
+    },
+    "audio/fire.wav": {
+      "source": "audio/fire.wav",
+      "format": "wav",
+      "offset": 837328,
+      "bytes": 157522,
+      "sha256": "9c0c26df345234a7055b8872a9320c8dce09623c23e8c70b3f8ab190f8d5bc02",
+      "mapping": "Exact source path"
+    },
+    "audio/gong.wav": {
+      "source": "audio/gong.wav",
+      "format": "wav",
+      "offset": 994850,
+      "bytes": 346208,
+      "sha256": "45c58ff7bd7d2c0c4e5d6b4c02aeae55c11b0516f30a9ceeb75736d0cffdb720",
+      "mapping": "Exact source path"
+    },
+    "audio/harp.wav": {
+      "source": "audio/harp.wav",
+      "format": "wav",
+      "offset": 1341058,
+      "bytes": 48094,
+      "sha256": "5087f0fb7aebe26b821cfd06e8fdb68c092814399fa57515d0ce4df009806865",
+      "mapping": "Exact source path"
+    },
+    "audio/lil_hiss.wav": {
+      "source": "audio/lil_hiss.wav",
+      "format": "wav",
+      "offset": 1389152,
+      "bytes": 32716,
+      "sha256": "4564f91d63c1a1886e10c55073069ab513d5903a7922f5ca454f037b49dba974",
+      "mapping": "Exact source path"
+    },
+    "audio/mp3/PineappleDisco2022.mp3": {
+      "source": "audio/ogg/PineappleDisco2022.ogg",
+      "format": "ogg",
+      "offset": 1421868,
+      "bytes": 401437,
+      "sha256": "c998dfd53567b5f441c48eec7de84b18b2b7a52df6640fe5f8c252f7b9eca8ea",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/about_theme.mp3": {
+      "source": "audio/ogg/about_theme.ogg",
+      "format": "ogg",
+      "offset": 1823305,
+      "bytes": 965944,
+      "sha256": "9edbd5eecc65b7d9d1eddbeccaaa5f30f056e8222e848e924e1d0c3c01075f7f",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/battle_theme_loop.mp3": {
+      "source": "audio/ogg/battle_theme_loop.ogg",
+      "format": "ogg",
+      "offset": 2789249,
+      "bytes": 613654,
+      "sha256": "aab08a48bb1975114c9fbf6e15b844022669901bdad4fb6804c481f09d87d7e1",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/boombox.mp3": {
+      "source": "audio/ogg/boombox.ogg",
+      "format": "ogg",
+      "offset": 3402903,
+      "bytes": 234068,
+      "sha256": "3c4dd1fd7026f08b75f22e2e6b3bad3f18f5eaf728a106a379846e850c27ddd6",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/campfire.mp3": {
+      "source": "audio/ogg/campfire.ogg",
+      "format": "ogg",
+      "offset": 3636971,
+      "bytes": 475374,
+      "sha256": "e197ade9f594ed8528fb3051bbdcaede8fc57431854c206a0616221a7f4eb49e",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/choir2.mp3": {
+      "source": "audio/ogg/choir2.ogg",
+      "format": "ogg",
+      "offset": 4112345,
+      "bytes": 175370,
+      "sha256": "77a7172d9839e0e1a0d5c72fa93db1aa2425b5a6b2b5bafa5a9aa9f6a0daa239",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/cumbia.mp3": {
+      "source": "audio/ogg/cumbia.ogg",
+      "format": "ogg",
+      "offset": 4287715,
+      "bytes": 333511,
+      "sha256": "86e685af861bafeaf15a2d5eb7f47b646352798d336ecb87e94e4860189fa197",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/death_metal_radio.mp3": {
+      "source": "audio/ogg/death_metal_radio.ogg",
+      "format": "ogg",
+      "offset": 4621226,
+      "bytes": 519403,
+      "sha256": "bf0f7252e24044a61cde6b5863c4028a36a42b1b9846595518ba602d6808b44c",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/doctor.mp3": {
+      "source": "audio/ogg/doctor.ogg",
+      "format": "ogg",
+      "offset": 5140629,
+      "bytes": 855842,
+      "sha256": "5a77d94a9a0484d62ed2200839976ec56d9cd9471ec769d392d39232f4d53e25",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/funtime.mp3": {
+      "source": "audio/ogg/funtime.ogg",
+      "format": "ogg",
+      "offset": 5996471,
+      "bytes": 389759,
+      "sha256": "e2e069bf9b814e2e679e34bcaa7ed33b91752e1697b703040ac801434bfa4e91",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/hula.mp3": {
+      "source": "audio/ogg/hula.ogg",
+      "format": "ogg",
+      "offset": 6386230,
+      "bytes": 333231,
+      "sha256": "3f3af3ec46f8edf8869bce60319bbcb23f4fa508ef3dc4c92cb2cd5ca8543013",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/jazz_loop.mp3": {
+      "source": "audio/ogg/jazz_loop.ogg",
+      "format": "ogg",
+      "offset": 6719461,
+      "bytes": 643068,
+      "sha256": "74be31d6ff2f074198369b73690f02bbd5e562f62d0894751b35b99f77610d0c",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/loonysong.mp3": {
+      "source": "audio/ogg/loonysong.ogg",
+      "format": "ogg",
+      "offset": 7362529,
+      "bytes": 692803,
+      "sha256": "b8a1fc1852f58398aba67379c1f8f9dd3e5c027568b53116f85eccd4c851f62e",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/loop_disco.mp3": {
+      "source": "audio/ogg/loop_disco.ogg",
+      "format": "ogg",
+      "offset": 8055332,
+      "bytes": 79137,
+      "sha256": "cbd462ac197efccf0cd1fc49dc6aaefa16afabcd1e5379a20262854c677037bd",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/loopport_dubstep.mp3": {
+      "source": "audio/ogg/loopport_dubstep.ogg",
+      "format": "ogg",
+      "offset": 8134469,
+      "bytes": 134997,
+      "sha256": "0d8a64f991052714a9c7a8f25ef3af2850cfffb35e9cb0113e11a4d453517b7f",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/love_birds.mp3": {
+      "source": "audio/ogg/love_birds.ogg",
+      "format": "ogg",
+      "offset": 8269466,
+      "bytes": 446638,
+      "sha256": "f62519de21038880baef551688643bdcc9381fbea826e53fbacf3f933d4e0646",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/music_box.mp3": {
+      "source": "audio/ogg/music_box.ogg",
+      "format": "ogg",
+      "offset": 8716104,
+      "bytes": 116934,
+      "sha256": "62c7961fbf7280b801eaedfdda1a269329d8a739af0be7264476c604166748c9",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/naughty_princess.mp3": {
+      "source": "audio/ogg/naughty_princess.ogg",
+      "format": "ogg",
+      "offset": 8833038,
+      "bytes": 175300,
+      "sha256": "cb692339c28a1443bdb3936a8f2cecbb90e06b2444f12618ca17c2f7a13c1c6b",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/old_timey.mp3": {
+      "source": "audio/ogg/old_timey.ogg",
+      "format": "ogg",
+      "offset": 9008338,
+      "bytes": 209674,
+      "sha256": "784b36f146b712561fad44600741bfb9091f5e202a4a45da9d54f7157bc199e5",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/pineapple_record_player.mp3": {
+      "source": "audio/ogg/pineapple_record_player.ogg",
+      "format": "ogg",
+      "offset": 9218012,
+      "bytes": 750737,
+      "sha256": "b65f4cb30219e296fba97b8994509d090f26045476046d2b0d13d9e83b8ee9a6",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/scary1.mp3": {
+      "source": "audio/ogg/scary1.ogg",
+      "format": "ogg",
+      "offset": 9968749,
+      "bytes": 37645,
+      "sha256": "3a738b40bd48e8a170f3bcf2f88d2d71261c7bec3f365114f38384405a35a63e",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/signal_jammer.mp3": {
+      "source": "audio/ogg/signal_jammer.ogg",
+      "format": "ogg",
+      "offset": 10006394,
+      "bytes": 10800,
+      "sha256": "04a223a692fc6d16e27f25178dac204abe4aae1b2373e0a8df6f875d3f6f0e88",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/spooky_tiki.mp3": {
+      "source": "audio/ogg/spooky_tiki.ogg",
+      "format": "ogg",
+      "offset": 10017194,
+      "bytes": 392116,
+      "sha256": "a61fec43c9d012aafb8b67a9780e16a153ca96221352dfcf7a9b7d10ccb3e84c",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/theme3.mp3": {
+      "source": "audio/ogg/theme3.ogg",
+      "format": "ogg",
+      "offset": 10409310,
+      "bytes": 431549,
+      "sha256": "23e72cebe63aa102dbb71956e1a298255c1a3ae4f835369c18ee745d97edec31",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/unspeakable.mp3": {
+      "source": "audio/ogg/unspeakable.ogg",
+      "format": "ogg",
+      "offset": 10840859,
+      "bytes": 682996,
+      "sha256": "7ab7072396861f1504e94415178254908b249007169f814c5b9f68bf65fd61c9",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/western.mp3": {
+      "source": "audio/ogg/western.ogg",
+      "format": "ogg",
+      "offset": 11523855,
+      "bytes": 456620,
+      "sha256": "0e8433838ea1aaee9aeea3173d02d37c3e835b13ef2b8f597aff2ba91d4ede15",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/windchimes.mp3": {
+      "source": "audio/ogg/windchimes.ogg",
+      "format": "ogg",
+      "offset": 11980475,
+      "bytes": 453900,
+      "sha256": "dc6cf8c977c89a185e68889ba498c7d045cf1fe6b29f90aca6b0e38eff73c097",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/mp3/you_row.mp3": {
+      "source": "audio/ogg/you_row.ogg",
+      "format": "ogg",
+      "offset": 12434375,
+      "bytes": 1131967,
+      "sha256": "16a068693faea54937b96d21c84b5cab6ed508203ec211804136c8f19d07b218",
+      "mapping": "Same basename local OGG; encoding differs from simulator MP3"
+    },
+    "audio/obelisk.wav": {
+      "source": "audio/obelisk.wav",
+      "format": "wav",
+      "offset": 13566342,
+      "bytes": 30776,
+      "sha256": "38bb00e09ffb8dbbdcab6aff65239939efcc0d7f6eaa34a0f7a690ad8483157a",
+      "mapping": "Exact source path"
+    },
+    "audio/pop.wav": {
+      "source": "audio/pop.wav",
+      "format": "wav",
+      "offset": 13597118,
+      "bytes": 2794,
+      "sha256": "3b87c4245e19e4480f577fe98c97b06feec93bf7d68600b02ff42ca5cabca1ad",
+      "mapping": "Exact source path"
+    },
+    "audio/prayer_wheel.wav": {
+      "source": "audio/prayer_wheel.wav",
+      "format": "wav",
+      "offset": 13599912,
+      "bytes": 397016,
+      "sha256": "787e9414b3453def9a3102e312f805cec04cff08271950a2b5fb8eb84617e110",
+      "mapping": "Exact source path"
+    },
+    "audio/quack.wav": {
+      "source": "audio/quack.wav",
+      "format": "wav",
+      "offset": 13996928,
+      "bytes": 10862,
+      "sha256": "644489a95d826ccfaa9a5df79283ba7e360a92d647a561f8093d5fbc11085668",
+      "mapping": "Exact source path"
+    },
+    "audio/rain_loop.wav": {
+      "source": "audio/rain_loop.wav",
+      "format": "wav",
+      "offset": 14007790,
+      "bytes": 303644,
+      "sha256": "db8e050b79369bda9e80adfaea2096009bdf3ecbd6e5f1a1aba3c3d8a5217530",
+      "mapping": "Exact source path"
+    },
+    "audio/shower.wav": {
+      "source": "audio/shower.wav",
+      "format": "wav",
+      "offset": 14311434,
+      "bytes": 241288,
+      "sha256": "ae20b6c364dc14c8cfba8b9d5e50c1fd0e8c55d94845bf5a3ede72241a7d11ab",
+      "mapping": "Exact source path"
+    },
+    "audio/sizzle.wav": {
+      "source": "audio/sizzle.wav",
+      "format": "wav",
+      "offset": 14552722,
+      "bytes": 173626,
+      "sha256": "f46157209276dfc509e90e236c97a8ec1286b791f99146782cd2a1f88eaaaaf2",
+      "mapping": "Exact source path"
+    },
+    "audio/slot_start.wav": {
+      "source": "audio/slot_start.wav",
+      "format": "wav",
+      "offset": 14726348,
+      "bytes": 37066,
+      "sha256": "1515ff6d22c15bdbbaf9090d49376554505c4805394e7e1a9686f85f151b4a92",
+      "mapping": "Exact source path"
+    },
+    "audio/splash.wav": {
+      "source": "audio/splash.wav",
+      "format": "wav",
+      "offset": 14763414,
+      "bytes": 46868,
+      "sha256": "f272bec0b5fa1711afa7454178e623579a2071628b49ee206736b0f16f28d6f8",
+      "mapping": "Exact source path"
+    },
+    "audio/toilet_flush.wav": {
+      "source": "audio/toilet_flush.wav",
+      "format": "wav",
+      "offset": 14810282,
+      "bytes": 342364,
+      "sha256": "8792e1fb78e72706053e182ba95fa43f3958221e7ac53f609df440c162dd6f2c",
+      "mapping": "Exact source path"
+    },
+    "audio/trampoline.wav": {
+      "source": "audio/trampoline.wav",
+      "format": "wav",
+      "offset": 15152646,
+      "bytes": 55452,
+      "sha256": "1f49ef77e1c254c3af3721255b5c760b835507038ed17d303b146820d0f55206",
+      "mapping": "Exact source path"
+    },
+    "audio/tsktsk.wav": {
+      "source": "audio/tsktsk.wav",
+      "format": "wav",
+      "offset": 15208098,
+      "bytes": 131776,
+      "sha256": "2de3950c72168729cec6d7b624d3c2ca0d982d48612c1b92e7f0b728cbc1c9ba",
+      "mapping": "Exact source path"
+    },
+    "audio/wheel.wav": {
+      "source": "audio/wheel.wav",
+      "format": "wav",
+      "offset": 15339874,
+      "bytes": 91180,
+      "sha256": "1a05b77a7bc318e38d746aceb7aa6c6cb2ab089c95ada396255716d5879169bd",
+      "mapping": "Exact source path"
+    }
+  }
+}

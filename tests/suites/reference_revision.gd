@@ -1,0 +1,65 @@
+extends RefCounted
+func run(t):
+	t.check(load("res://src/network/supabase_client.gd").can_instantiate(),"Supabase transport compiles")
+	t.check(load("res://tests/supabase_client_live.gd").can_instantiate(),"Real network integration harness compiles before creating fixtures")
+	t.check(load("res://src/diagnostics/resource_check.gd").verify().is_empty(),"All required resource paths resolve from the project manifest")
+	t.check(load("res://src/ui/theme.gd").button_style().texture.resource_path=="res://assets/reference/panel_up.png","Buttons use the verified local nine-slice panel")
+	t.check(load("res://src/ui/theme.gd").sprite("left").get_size()==Vector2(135,95),"Native arrows exclude texture storage padding without cropping visible pixels")
+	t.check(load("res://src/game/simulator_catalog.gd").sprite(2).atlas.resource_path.begins_with("res://assets/catalog/"),"Verified local Dirt sheet takes priority over the web atlas")
+	t.check(load("res://src/diagnostics/live_preview.gd").can_instantiate(),"Windows live preview script compiles")
+	var w=load("res://src/game/world_state.gd").new()
+	w.create_default("REFERENCE")
+	t.check(w.background[25*100+45]==200014,"New worlds retain native Cave Background under terrain")
+	if not ResourceLoader.exists("res://src/game/terrain_renderer.gd"):
+		t.check(false,"Recovered adjacency renderer exists")
+		return
+	var r=load("res://src/game/terrain_renderer.gd").new()
+	var tile=Vector2i(45,24)
+	t.check(r.variant(w,tile,1,false)==1,"Dirt surface uses recovered upper edge variant")
+	t.check(r.variant(w,Vector2i(45,25),200014,true)==0,"Interior cave uses connected native variant")
+	w.set_tile(tile+Vector2i.LEFT,0)
+	t.check(r.variant(w,tile,1,false)!=1,"Exposed corner changes adjacency variant")
+	var p=load("res://src/game/player_state.gd").new()
+	p.position=Vector2(45*32+16,24*32)
+	w.set_tile(tile,3)
+	var a=load("res://src/game/interactions.gd").new()
+	for i in 3:
+		a.cooldown=0
+		a.apply(w,p,"punch",tile,0)
+	t.check(w.tile_at(tile)==3,"Rock is not destroyed using dirt's three-hit rule")
+	for i in 7:
+		a.cooldown=0
+		a.apply(w,p,"punch",tile,0)
+	t.check(w.tile_at(tile)==0,"Recovered rock hardness requires ten fist hits")
+	t.check(not load("res://src/game/item_catalog.gd").source_notes(2).is_empty(),"Verified wiki enrichment is available offline without replacing native IDs")
+	var panel=load("res://src/ui/motion_panel.gd").new()
+	t.root.add_child(panel)
+	panel.open()
+	panel.advance(0.05)
+	var partial: float=panel.progress
+	panel.request_close(func(): pass)
+	panel.advance(0.02)
+	t.check(panel.progress<partial,"Closing reverses an unfinished opening")
+	panel.open()
+	panel.advance(1)
+	t.check(panel.transition_state=="open" and panel.visible,"Reopening cancels a pending close")
+	var obsolete=Control.new()
+	panel.add_child(obsolete)
+	panel.visual=obsolete
+	obsolete.free()
+	var replacement=Control.new()
+	replacement.set_meta("motion_visual",true)
+	panel.add_child(replacement)
+	panel.open()
+	t.check(panel.visual==replacement,"Rebuilt dialogs bind their replacement visual after the old control is freed")
+	panel.reduced_motion=true
+	panel.request_close(func(): pass)
+	t.check(panel.transition_state=="closed" and not panel.visible and panel.mouse_filter==Control.MOUSE_FILTER_IGNORE,"Reduced-motion closure is immediate and releases hit testing")
+	panel.queue_free()
+	var core=load("res://src/network/room_server.gd").new()
+	core.join(1,"RespawnFixture","RESPAWNFIXTURE")
+	core.players[1].state.position+=Vector2(80,-80)
+	t.check(core.accept(1,{"type":"respawn"}),"Server accepts an explicit respawn command")
+	t.check(core.players[1].state.position==core.rooms.RESPAWNFIXTURE.world.spawn_position(),"Server chooses spawn instead of trusting client coordinates")
+	t.check(not core.accept(1,{"type":"respawn"}),"Respawn spam is rate limited")
+	await t.process_frame

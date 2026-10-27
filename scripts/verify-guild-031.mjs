@@ -1,0 +1,36 @@
+import {readFile,writeFile,copyFile} from 'node:fs/promises';
+import {createReadStream} from 'node:fs';
+import {createHash} from 'node:crypto';
+const hash=async path=>{const h=createHash('sha256');for await(const chunk of createReadStream(path))h.update(chunk);return h.digest('hex');};
+const read=async path=>JSON.parse(await readFile(path,'utf8'));
+const running=await read('evidence/guild-031-running.json');
+const profile='tools/profile-guild-031/GTRef';
+const qa=await read(profile+'/qa-report.json');
+if(qa.failures.length)throw Error('Exported QA failures: '+JSON.stringify(qa.failures));
+if(qa.guild_save_probe.mascot.mascot_fg!==22||qa.guild_save_probe.mascot.mascot_bg!==14)throw Error('Actual mascot UI save mismatch');
+const logs={};
+for(const path of ['evidence/guild-031-green.log','evidence/guild-031-all-final.log','evidence/guild-031-build.log','evidence/guild-031-windows.log']){
+ const text=await readFile(path,'utf8');
+ const errors=text.split(/\r?\n/).filter(line=>/SCRIPT ERROR:|^ERROR:|^FAIL:/.test(line));
+ if(errors.length)throw Error(path+': '+errors.slice(0,5).join('\n'));
+ logs[path]={errors:[],checks:text.match(/CHECKS: (\d+) FAILED: (\d+)/)?.[0]||null};
+}
+const web=[];
+for(const file of (await read('evidence/web-reference/source-baseline.json')).files)web.push({source:file.source,unchanged:await hash(file.source)===file.sha256});
+if(web.some(file=>!file.unchanged))throw Error('Old-web source changed');
+const apk=[];
+for(const file of (await read('evidence/wardrobe-019-build-hashes.json')).filter(row=>/\.apk$/i.test(row.Path)))apk.push({path:file.Path,unchanged:(await hash(file.Path)).toLowerCase()===file.Hash.toLowerCase()});
+if(apk.some(file=>!file.unchanged))throw Error('Prior APK changed');
+const original='C:/Users/user/AppData/Local/Growtopia/Growtopia.exe';
+const originalHash=await hash(original);
+if(originalHash!=='4325fe916b7435eeb50048608869fe81b1577b8f23fe3bfdd2b1beeb0a14d29c')throw Error('Original installation executable changed');
+const manifest=await read('data/build-info.json');
+for(const[path,expected]of Object.entries(manifest.hashes))if(await hash(path)!==expected)throw Error('Build provenance mismatch: '+path);
+const resources=await read('research/guild-starship-031/local-resource-manifest.json');
+for(const file of resources.files)if(await hash(file.source)!==file.source_sha256||await hash(file.output)!==file.output_sha256)throw Error('Guild resource provenance mismatch');
+const ships=await read('research/guild-starship-031/starship-findings.json');
+const summary={version:manifest.version,build:{...running,sha256:await hash(running.exe),source_revision:manifest.source_revision,manifest_files:Object.keys(manifest.hashes).length},native_logs:logs,windows:{checks:qa.checks.length,failures:qa.failures,elapsed_ms:qa.elapsed_ms,guild:qa.guild_031,mascot_saved:qa.guild_save_probe.mascot,effects:qa.effect_scenarios},source:{check:ships.source,starships:ships.ships,guild_resources:resources.files},unchanged:{old_web:web,prior_apk:apk,growtopia_exe:originalHash},pending:ships.ships.filter(row=>!row.layout_recovered).map(row=>({id:row.id,name:row.name,missing:'Original tile layout and generator'})),qualification:'Godot Windows only; world-local creative Guild mascot. Motion/palette calibrated from one public recording, not proven native renderer. No cloud/account change or old-web edit. Five Starship layouts remain unrecovered.'};
+await copyFile(profile+'/qa-report.json','evidence/guild-031-windows-final.json');
+for(const name of ['mascot','controls','rain','inverted'])await copyFile(profile+'/qa-guild-031-'+name+'.png','evidence/guild-031-'+name+'-final.png');
+await writeFile('evidence/guild-031-summary.json',JSON.stringify(summary,null,2));
+console.log(JSON.stringify({version:summary.version,checks:summary.windows.checks,failures:summary.windows.failures,guild:summary.windows.guild,old_web_verified:web.length,prior_apk_verified:apk.length,build_manifest_files:summary.build.manifest_files,pending:summary.pending}));

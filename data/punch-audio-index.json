@@ -1,0 +1,366 @@
+{
+  "Flamego": {
+    "source": "audio/flame_go.wav",
+    "offset": 0,
+    "bytes": 34828,
+    "sha256": "84405740ee75a26e69e991de0ad71fbeed33173897146d56f056c6b551000344",
+    "name_mapping": "Simulator Flamego mapped to locally named flame_go; same recording identity across versions is unverified."
+  },
+  "airy02": {
+    "source": "audio/airy02.wav",
+    "offset": 34828,
+    "bytes": 44100,
+    "sha256": "0a66826544a5de1c334b7cf09db9e08ff4fe737fe9d60c151bf7a169079597da",
+    "name_mapping": "Source recording name"
+  },
+  "arrow_thwip": {
+    "source": "audio/arrow_thwip.wav",
+    "offset": 78928,
+    "bytes": 10410,
+    "sha256": "09ab4dfe4eda88c970c76757eb6e8ba2647dc1a06570dbe28d39b2489d46852f",
+    "name_mapping": "Source recording name"
+  },
+  "bigboom": {
+    "source": "audio/bigboom.wav",
+    "offset": 89338,
+    "bytes": 67674,
+    "sha256": "87d97156002b4e0ca203551b0395fd48b4d024fd83cdbe80aa74d8cd40907b1d",
+    "name_mapping": "Source recording name"
+  },
+  "blorb": {
+    "source": "audio/blorb.wav",
+    "offset": 157012,
+    "bytes": 32400,
+    "sha256": "aeaabc9b8ed0ecd90ce5b56899074c980be8a40ceda3e4c4d92bf5b7ea6868c7",
+    "name_mapping": "Source recording name"
+  },
+  "burn": {
+    "source": "audio/burn.wav",
+    "offset": 189412,
+    "bytes": 95568,
+    "sha256": "06a2c42424c1b71cac67e99d27cfbd62f17f2ffd965d47a82ce2cc5243d3928d",
+    "name_mapping": "Source recording name"
+  },
+  "buster": {
+    "source": "audio/buster.wav",
+    "offset": 284980,
+    "bytes": 35372,
+    "sha256": "91e12fe9c2fec72b5f290c0e5765c75c3a92b09f0880cd7324d397eea9a91ec3",
+    "name_mapping": "Source recording name"
+  },
+  "ch_slash": {
+    "source": "audio/ch_slash.wav",
+    "offset": 320352,
+    "bytes": 96364,
+    "sha256": "cfebc096fa507e863e38afcaf8608f912bae0e5e1857e73079c5bebdfce13f41",
+    "name_mapping": "Source recording name"
+  },
+  "click_8bit": {
+    "source": "audio/click_8bit.wav",
+    "offset": 416716,
+    "bytes": 19234,
+    "sha256": "b30976e70a66cd919e059e0e1f1710a1b133007f2d42751ef593f7a85a775b62",
+    "name_mapping": "Source recording name"
+  },
+  "coin_flip": {
+    "source": "audio/coin_flip.wav",
+    "offset": 435950,
+    "bytes": 46444,
+    "sha256": "e7bc564957ba16e2e789a3d9d59fec8dc2b7fd9bcfe9f7f4d2d885b1922106bf",
+    "name_mapping": "Source recording name"
+  },
+  "cracker_bang": {
+    "source": "audio/cracker_bang.wav",
+    "offset": 482394,
+    "bytes": 24624,
+    "sha256": "f7fdcd1bb670c8867f9fb8b5c7a8aea2411625b5178b4e533000184f60001e7f",
+    "name_mapping": "Source recording name"
+  },
+  "droar": {
+    "source": "audio/droar.wav",
+    "offset": 507018,
+    "bytes": 93462,
+    "sha256": "821d3cce0353f69f48fb11d07043a672dbf6364e68b9aef7b12cfdbd23c0ac80",
+    "name_mapping": "Source recording name"
+  },
+  "fireball": {
+    "source": "audio/fireball.wav",
+    "offset": 600480,
+    "bytes": 45796,
+    "sha256": "f0acd9c3493e4020b14bba4b861e6953b27d5dd71062c2e3a8b08bff97262bca",
+    "name_mapping": "Source recording name"
+  },
+  "flame_go": {
+    "source": "audio/flame_go.wav",
+    "offset": 646276,
+    "bytes": 34828,
+    "sha256": "84405740ee75a26e69e991de0ad71fbeed33173897146d56f056c6b551000344",
+    "name_mapping": "Source recording name"
+  },
+  "forcefield": {
+    "source": "audio/forcefield.wav",
+    "offset": 681104,
+    "bytes": 33086,
+    "sha256": "7095f6aa42fecba12344ca692c39fa5fe4d8672656d3b8c886e771d5db5b6c8b",
+    "name_mapping": "Source recording name"
+  },
+  "galac_mini": {
+    "source": "audio/galac_mini.wav",
+    "offset": 714190,
+    "bytes": 43996,
+    "sha256": "0e02e596b1e3ba130a443477aa1b9219bf758f82957cc80b720cb9cf94621b7c",
+    "name_mapping": "Source recording name"
+  },
+  "goose_honk_2": {
+    "source": "audio/goose_honk_2.wav",
+    "offset": 758186,
+    "bytes": 24054,
+    "sha256": "093f95e7097a9127f111392913142bcd36b2b468c9f8fde22f55f5fac396625d",
+    "name_mapping": "Source recording name"
+  },
+  "gunshot": {
+    "source": "audio/gunshot.wav",
+    "offset": 782240,
+    "bytes": 14528,
+    "sha256": "57dc6c59559010a617f53c87b14dbd0ae20ad141ead77ce46d08581f7cb06f41",
+    "name_mapping": "Source recording name"
+  },
+  "hammer_rumble": {
+    "source": "audio/hammer_rumble.wav",
+    "offset": 796768,
+    "bytes": 43758,
+    "sha256": "49c993e9c2cb7821b9ae31d61b41e4e0b5b828b371ebd9f1a07357dcde447d09",
+    "name_mapping": "Source recording name"
+  },
+  "harp": {
+    "source": "audio/harp.wav",
+    "offset": 840526,
+    "bytes": 48094,
+    "sha256": "5087f0fb7aebe26b821cfd06e8fdb68c092814399fa57515d0ce4df009806865",
+    "name_mapping": "Source recording name"
+  },
+  "heart": {
+    "source": "audio/heart.wav",
+    "offset": 888620,
+    "bytes": 24112,
+    "sha256": "895464ead47cbc2d7b0e113ce0a7db8a42a1e2556b491d6f5f64a2fed74cba5b",
+    "name_mapping": "Source recording name"
+  },
+  "hiss3": {
+    "source": "audio/hiss3.wav",
+    "offset": 912732,
+    "bytes": 48436,
+    "sha256": "eb5bbf35d006f06acfd07024de829df6fbb92f215101bda5ea6148e9daa52160",
+    "name_mapping": "Source recording name"
+  },
+  "ionic_pulse": {
+    "source": "audio/ionic_pulse.wav",
+    "offset": 961168,
+    "bytes": 50624,
+    "sha256": "3f2a617b69b8538c2341a13ea338ab323cceb39a01979e0a2130766dd224a5c6",
+    "name_mapping": "Source recording name"
+  },
+  "jelly_squelch": {
+    "source": "audio/jelly_squelch.wav",
+    "offset": 1011792,
+    "bytes": 14938,
+    "sha256": "983d756ac46a60fdf9424ed9aeb83b654ac0adc15882c90f1f6372668e7fe344",
+    "name_mapping": "Source recording name"
+  },
+  "jet_engine02": {
+    "source": "audio/jet_engine02.wav",
+    "offset": 1026730,
+    "bytes": 32890,
+    "sha256": "5fae1cbada7c0042e45440ef1f2d7dcbe17e94d9f068b3f811726a36f19c2542",
+    "name_mapping": "Source recording name"
+  },
+  "laser": {
+    "source": "audio/laser.wav",
+    "offset": 1059620,
+    "bytes": 17658,
+    "sha256": "4131c2b2ccacc2e513cbacf7a7e368f8edfd46429bf06d35c5914fba7d32006e",
+    "name_mapping": "Source recording name"
+  },
+  "lightning": {
+    "source": "audio/lightning.wav",
+    "offset": 1077278,
+    "bytes": 64094,
+    "sha256": "343b296ad4f5c4c15f8326369493bfe2d1abbabba95e639c68d1c7724b19cdf7",
+    "name_mapping": "Source recording name"
+  },
+  "lil_hiss": {
+    "source": "audio/lil_hiss.wav",
+    "offset": 1141372,
+    "bytes": 32716,
+    "sha256": "4564f91d63c1a1886e10c55073069ab513d5903a7922f5ca454f037b49dba974",
+    "name_mapping": "Source recording name"
+  },
+  "machinegun": {
+    "source": "audio/machinegun.wav",
+    "offset": 1174088,
+    "bytes": 13532,
+    "sha256": "0696f91b2822a36f517dc4962930d72aeb903e9a8e3fd79ac020196ae74552c1",
+    "name_mapping": "Source recording name"
+  },
+  "metal_hit": {
+    "source": "audio/metal_hit.wav",
+    "offset": 1187620,
+    "bytes": 24188,
+    "sha256": "7625c90149955d95b6d51705192d03437532f8768512b93e7ad5e758cbb4d7c0",
+    "name_mapping": "Source recording name"
+  },
+  "mlaunch": {
+    "source": "audio/mlaunch.wav",
+    "offset": 1211808,
+    "bytes": 53828,
+    "sha256": "a447094b06f92ef3a80073b8a7be6bab0e844ee4c1d2f6120df6748a9e48b7fb",
+    "name_mapping": "Source recording name"
+  },
+  "morty_ears": {
+    "source": "audio/morty_ears.wav",
+    "offset": 1265636,
+    "bytes": 22142,
+    "sha256": "eeed6d9516802368c6c191818d1c2fa40d614596600af600cc69612ef0be2095",
+    "name_mapping": "Source recording name"
+  },
+  "obelisk": {
+    "source": "audio/obelisk.wav",
+    "offset": 1287778,
+    "bytes": 30776,
+    "sha256": "38bb00e09ffb8dbbdcab6aff65239939efcc0d7f6eaa34a0f7a690ad8483157a",
+    "name_mapping": "Source recording name"
+  },
+  "peep": {
+    "source": "audio/peep.wav",
+    "offset": 1318554,
+    "bytes": 10916,
+    "sha256": "122a9d60b260d129bcd7081beb68276dc0ba4bab6c60b5522f4fe01e9f6db89d",
+    "name_mapping": "Source recording name"
+  },
+  "pop": {
+    "source": "audio/pop.wav",
+    "offset": 1329470,
+    "bytes": 2794,
+    "sha256": "3b87c4245e19e4480f577fe98c97b06feec93bf7d68600b02ff42ca5cabca1ad",
+    "name_mapping": "Source recording name"
+  },
+  "punch": {
+    "source": "audio/punch.wav",
+    "offset": 1332264,
+    "bytes": 8764,
+    "sha256": "84b2d26473db55d11ec8006889b1b50a641aec07a6c19a3d6bd734ed9ce76df9",
+    "name_mapping": "Source recording name"
+  },
+  "punch_glass": {
+    "source": "audio/punch_glass.wav",
+    "offset": 1341028,
+    "bytes": 53450,
+    "sha256": "b2103d72c11ebcac05e8c708f6bb6fa7360dc57b5b6f731c94d56f380a6ba35d",
+    "name_mapping": "Source recording name"
+  },
+  "punch_miss": {
+    "source": "audio/punch_miss.wav",
+    "offset": 1394478,
+    "bytes": 8094,
+    "sha256": "e57aaea12369395e5a55621e08a0e070cbfa7ecbcedbb1b432002b0ac68fbaf1",
+    "name_mapping": "Source recording name"
+  },
+  "punch_organic": {
+    "source": "audio/punch_organic.wav",
+    "offset": 1402572,
+    "bytes": 57562,
+    "sha256": "806064854e19f3f9d7ee7491068ca1c82a1153d964ed5c45b67554ccce88ed31",
+    "name_mapping": "Source recording name"
+  },
+  "ratatat": {
+    "source": "audio/ratatat.wav",
+    "offset": 1460134,
+    "bytes": 32922,
+    "sha256": "aa2af27a144aab44b9fdc6ac7e21c8bd4dc233c1a8e8a55e0003e537f9316c63",
+    "name_mapping": "Source recording name"
+  },
+  "sheep_machine_gun2": {
+    "source": "audio/sheep_machine_gun2.wav",
+    "offset": 1493056,
+    "bytes": 24268,
+    "sha256": "4e3d06b79eaf8e8b5b670e64e5975020c23eea46380bbcf469dfb9e41ce334f0",
+    "name_mapping": "Source recording name"
+  },
+  "shotgun": {
+    "source": "audio/shotgun.wav",
+    "offset": 1517324,
+    "bytes": 62264,
+    "sha256": "25676aa036aecc504fadf87e15c1b13776b7b6cb9ebb20b4f716fb2258894217",
+    "name_mapping": "Source recording name"
+  },
+  "slap": {
+    "source": "audio/slap.wav",
+    "offset": 1579588,
+    "bytes": 15510,
+    "sha256": "0418448e65d488a28187e6bd3a3c18daae182ec7a529163cf7a3085cbbac1927",
+    "name_mapping": "Source recording name"
+  },
+  "slash": {
+    "source": "audio/slash.wav",
+    "offset": 1595098,
+    "bytes": 26804,
+    "sha256": "4c1f57fe34b1c31ffd4af8683680a4b433792d47fcf4f70f1c7277a58b059cc9",
+    "name_mapping": "Source recording name"
+  },
+  "slashquick": {
+    "source": "audio/slashquick.wav",
+    "offset": 1621902,
+    "bytes": 26804,
+    "sha256": "4c1f57fe34b1c31ffd4af8683680a4b433792d47fcf4f70f1c7277a58b059cc9",
+    "name_mapping": "Source recording name"
+  },
+  "spooky_20": {
+    "source": "audio/notes/spooky_20.wav",
+    "offset": 1648706,
+    "bytes": 34414,
+    "sha256": "c03db5701fc419ae5b475c94ed7605a2d47e47f3754191d7c3c1d5c2f64d0fa0",
+    "name_mapping": "Source recording name"
+  },
+  "spray": {
+    "source": "audio/spray.wav",
+    "offset": 1683120,
+    "bytes": 24916,
+    "sha256": "3f425ee623d367020f99fc06279f7e803b285227347594cbb46b651166649382",
+    "name_mapping": "Source recording name"
+  },
+  "squirt": {
+    "source": "audio/squirt.wav",
+    "offset": 1708036,
+    "bytes": 31166,
+    "sha256": "1222decc4b8a266cff91d01ef37b6139541b79e9902491fa888e30b2c062d4bb",
+    "name_mapping": "Source recording name"
+  },
+  "squish_undo": {
+    "source": "audio/squish_undo.wav",
+    "offset": 1739202,
+    "bytes": 18524,
+    "sha256": "71b755100f9a5145ea08673e94a8c99082dbc562086106c2b4f1ef10b1e083c6",
+    "name_mapping": "Source recording name"
+  },
+  "swoosh": {
+    "source": "audio/swoosh.wav",
+    "offset": 1757726,
+    "bytes": 28680,
+    "sha256": "705c5d55ea8d9c0bb2e559903a5273c88a0e1b194c9df4ca4bba4f4ffdfcacdd",
+    "name_mapping": "Source recording name"
+  },
+  "thousandSlash": {
+    "source": "audio/thousandSlash.wav",
+    "offset": 1786406,
+    "bytes": 22142,
+    "sha256": "1298f457d9ad1007fb3c760b9f3626ba817b39c62e05646101070ee7644c1d19",
+    "name_mapping": "Source recording name"
+  },
+  "thwoop": {
+    "source": "audio/thwoop.wav",
+    "offset": 1808548,
+    "bytes": 21966,
+    "sha256": "07ef5c166bca477835361ac2a60713607a5cabf8b899f1fbbcc2049e7e883409",
+    "name_mapping": "Source recording name"
+  }
+}

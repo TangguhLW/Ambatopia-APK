@@ -1,0 +1,4 @@
+import {readFile,writeFile} from 'node:fs/promises';const input=JSON.parse(await readFile('evidence/fidelity-2026-10-22/item-prefixes.json'));
+const slots={hair:[68,44,70],shirt:[36,38,84],pants:[48,76,82]};const samples={schema_version:1,evidence:{source:input.source,sha256:input.sha256,version:input.version,coverage:'Selected verified prefix fields; record tails and gameplay not decoded'},slots:{}};
+for(const [slot,ids] of Object.entries(slots)){samples.slots[slot]=ids.map(id=>{const item=input.items.find(x=>x.id===id);if(!item)throw Error('Missing selected metadata');return {original_id:id,name:item.name,asset:slot==='shirt'?'shirts':slot,source:item.texture,frame:[item.textureX*32,item.textureY*32,32,32],source_offset:item.sourceOffset,clothing_type:item.clothingType,effects_implemented:[]};});}
+await writeFile('data/equipment-samples.json',JSON.stringify(samples,null,2));

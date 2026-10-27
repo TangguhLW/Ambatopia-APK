@@ -1,0 +1,39 @@
+# Windows 0.28.1 — source machine rules, sound and world generators
+
+This update changes the native Godot reconstruction only. The old Ambatopia web, its database, original accounts, installed Growtopia resources and previous APKs are unchanged. Windows testing uses isolated profiles; no Android install or backend deployment is performed.
+
+## Implemented behavior
+
+- **Antigravity Generator:** persistent on/off, original active atlas frame, silent option, and a real 0.375 gravity multiplier. Equipped double jump can rearm in antigravity, following the inspected movement rules. A visible Antigravity modifier is removed when the generator is disabled. Multiple generators follow the source's last-generator rule.
+- **Switch framework:** source action families 12, 31, 122 and 45 cover 158 entries for persistent on/off, owner validation, frame selection and available machine music. This is framework coverage, not proof that every machine-specific interaction or animation is complete. Ordinary punching still damages a switch after toggling it, as in the inspected source.
+- **Jammers:** Punch Jammer suppresses player knockback in the local authoritative RoomServer. Signal Jammer hides saved local worlds from random discovery while direct world entry remains possible. Zombie/Balloon service flags exist, but their respective infection/balloon-hit gameplay is not implemented by this update. Supabase world discovery is unchanged.
+- **Weather machines:** 46 of 52 source entries have a usable renderer/control path. Ordinary machines switch sky on punch or through their panel; placing a machine no longer automatically changes weather. Switching off or breaking the active machine restores base weather. Epoch Machine has enabled Ice Age/Volcano/Floating Islands phases and a configurable interval (source default ten minutes). Infinity supports up to five weather slots and its source default five-minute interval. Both cycle in the Windows gameplay loop and local RoomServer.
+- **Providers:** 32 source drop tables plus the ATM special rule are used. Repeated rows retain their probability weight, and the source quantity is sampled from 1 through its maximum instead of always granting the maximum. ATM grants 1–250 gems, split into legal stacks to preserve quantities above 200. Source egg providers disappear after harvesting; item 12680 gives 12682 and disappears after its eighth harvest. Missing provider tables produce an explicit message and preserve state rather than inventing a reward. The panel shows Harvest, Creative grow, timer and recovered drop names instead of unrelated stock controls.
+- **Break rewards:** source rules for IDs 120, 542, 3604, 7628 and 2478 replace arbitrary loot. This includes Dragon Hoard's 1/500 rare branch and Locke mystery's clothing/block/seed selection plus rare override. Tables and duplicate entries come from the inspected simulator.
+- **Blasts:** ten available original generators were executed in an isolated JavaScript context, capturing four seeded world variants each. Godot imports source foreground, background, spawn, labels, grown fruit and loose drops, validates a candidate before replacement, refreshes terrain and moves the player to the new spawn. This is a finite template adaptation, not a complete procedural generator port. Godot retains its protected spawn/bedrock invariant.
+- **Audio:** 53 local source recordings are packed with hashes and relative paths. Active machines play their source recording, support silent/off/removal, and use a bounded four-voice soundscape. Thirty-one recovered foreground/background contact rules trigger their matching sound with leave/reentry timing. Material punch/break sounds remain handled by the existing material rules. Several machines deliberately share a recording because the source does; arbitrary unique sounds are not invented.
+
+## Source and provenance
+
+`research/web-wardrobe/set.readable.js` contains the inspected simulator behavior: switch handlers near 16641, weather near 17429, provider harvest near 17723 and treasure near 21685. `data/simulator/use.json` identifies its items.dat v26 metadata. These sources need not match every later official Growtopia version.
+
+`scripts/capture-blast-templates.mjs` executes only the isolated original generator closure and decoder, never the full browser entry point. `data/blast-templates.json` records available and absent generators. `scripts/import-machine-audio.mjs` copies selected recordings from the read-only local installation into the project pack. MP3 simulator paths are mapped to matching local OGG basenames when needed; this is an encoding/path adaptation, not a claim that the original MP3 bytes are identical. All 53 copied local recordings match their recorded SHA-256. Original Vorbis metadata in some recordings produces a Godot comment warning; the recordings decode without rewriting their audio.
+
+Audio is loaded from `assets/web-wardrobe/machine-audio.bin`; no user's installation path is required by the exported game. `data/build-info.json` fingerprints native sources and the new packs/templates.
+
+## Explicit remaining gaps
+
+- Six weather renderers are not recovered: Heatwave (3694), Stuff (3832), Background (5000), Guild (6280), Frozen Cliffs (7644), Celebrity Hills (10286). Machine activation reports the gap and preserves the existing sky. Treasure blast's terrain and drops are recovered, but its weather ID 44 resolves to the missing `frozen` recipe.
+- Eleven providers lack source drop tables: 5318, 7476, 9224, 10446, 10656, 12986, 14138, 15010, 15822, 16104, 16238.
+- Seven blast generators are absent in the inspected simulator: Harvest Moon, Thermonuclear, Imperial Starship, Stellarix Starship, Greezak Starship, HyperTech Starship and Protostar Starship. Activation explicitly refuses replacement and leaves the current world intact.
+- Zombie infection, balloon hit immunity, Supabase jammer discovery, custom switch `fr/fr2` animation programs, some machine-specific interactions and remaining creative-adapted consumables/gacha systems are not complete. Ordinary weather switch timing still uses the game's action cooldown rather than the original shared one-second throttle. Spatial audio attenuation and the four-voice limit are bounded adaptations.
+
+The machine audit is `evidence/machines-028-coverage.json`. These gaps prevent a claim of “all items 100% identical.”
+
+## Verification
+
+The focused machine suite exercises source gravity, cache invalidation, switch state, active atlas coordinates, silent mode, all 52 weather entry contracts, Epoch/Infinity ordering, server Punch Jammer behavior, provider quantity bounds, treasure pools, all forty source-generated blast variants, refusal of absent generators, preservation of loose drops, and decoding of all packed recordings.
+
+The exported Windows QA additionally exercises actual native machine panels, active/silent sound voices and an automatically advancing Epoch cycle. Its first run caught a missing call to the local weather tick despite passing rule-level tests. That connection was fixed before exporting 0.28.1. Final evidence and counts are recorded in `evidence/machines-0281-summary.json` after the exported run completes. The final EXE is left open.
+
+Final Windows verification: **316 checks, zero failures**. Native suite: **306988 checks, zero failures**. Five heavy effect scenarios measured 59.77–60.07 FPS with p95 below 18 ms in the final isolated run. The preceding concurrent-test run is retained as initial evidence and failed its frame-time threshold; it is not hidden. Source/build manifest hashes match, saved logs contain no script/runtime/build errors, and scope hashes confirm thirteen old-web files plus two prior APKs are unchanged. Packed original OGG comment warnings remain as described above.

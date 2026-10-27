@@ -1,0 +1,21 @@
+.godot/
+tools/*
+!tools/*.ps1
+!tools/*.mjs
+build/
+assets/reference/
+*.tmp
+
+server/private/
+.env*
+
+# Local secrets and generated artifacts
+.env
+.env.local
+.env.*.local
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+node_modules/

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "evidence": "Upright source bytes verified; frame choices provisional until native frame traces are obtained",
+  "avatar": {
+    "body": [0,0,32,32],
+    "head": [0,32,32,32],
+    "eyes": [0,0,32,32],
+    "arm": [0,0,6,10],
+    "puncharm": [40,0,20,48]
+  },
+  "tiles": {
+    "1": [256,640,32,32],
+    "2": [0,832,32,32],
+    "3": [480,32,32,32],
+    "4": [544,32,32,32],
+    "5": [0,384,32,32],
+    "6": [256,832,32,32],
+    "7": [128,192,32,32]
+  },
+  "terrain": {"dirt_top": [288,640,32,32]}
+}

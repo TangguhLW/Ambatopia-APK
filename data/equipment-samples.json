@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "evidence": {
+    "source": "C:/Users/user/AppData/Local/Growtopia/cache/items.dat",
+    "sha256": "eff775961cc8d62fd7e523990a0ecbc9421d34fda210c32bf954b2383e31d921",
+    "version": 27,
+    "coverage": "Selected verified prefix fields; record tails and gameplay not decoded"
+  },
+  "slots": {
+    "hair": [
+      {
+        "original_id": 68,
+        "name": "Brown Hair",
+        "asset": "hair",
+        "source": "player_hairhair.rttex",
+        "frame": [
+          224,
+          192,
+          32,
+          32
+        ],
+        "source_offset": 21426,
+        "clothing_type": 7,
+        "effects_implemented": []
+      },
+      {
+        "original_id": 44,
+        "name": "Red Hair",
+        "asset": "hair",
+        "source": "player_hairhair.rttex",
+        "frame": [
+          64,
+          96,
+          32,
+          32
+        ],
+        "source_offset": 13920,
+        "clothing_type": 7,
+        "effects_implemented": []
+      },
+      {
+        "original_id": 70,
+        "name": "Spikey Hair",
+        "asset": "hair",
+        "source": "player_hairhair.rttex",
+        "frame": [
+          192,
+          32,
+          32,
+          32
+        ],
+        "source_offset": 22058,
+        "clothing_type": 7,
+        "effects_implemented": []
+      }
+    ],
+    "shirt": [
+      {
+        "original_id": 36,
+        "name": "Green Shirt",
+        "asset": "shirts",
+        "source": "player_shirt.rttex",
+        "frame": [
+          32,
+          0,
+          32,
+          32
+        ],
+        "source_offset": 11342,
+        "clothing_type": 1,
+        "effects_implemented": []
+      },
+      {
+        "original_id": 38,
+        "name": "Tuxedo",
+        "asset": "shirts",
+        "source": "player_shirt.rttex",
+        "frame": [
+          64,
+          0,
+          32,
+          32
+        ],
+        "source_offset": 11979,
+        "clothing_type": 1,
+        "effects_implemented": []
+      },
+      {
+        "original_id": 84,
+        "name": "Green Blouse",
+        "asset": "shirts",
+        "source": "player_shirt.rttex",
+        "frame": [
+          96,
+          0,
+          32,
+          32
+        ],
+        "source_offset": 26226,
+        "clothing_type": 1,
+        "effects_implemented": []
+      }
+    ],
+    "pants": [
+      {
+        "original_id": 48,
+        "name": "Jeans",
+        "asset": "pants",
+        "source": "player_pants.rttex",
+        "frame": [
+          32,
+          0,
+          32,
+          32
+        ],
+        "source_offset": 15226,
+        "clothing_type": 2,
+        "effects_implemented": []
+      },
+      {
+        "original_id": 76,
+        "name": "Black Pants",
+        "asset": "pants",
+        "source": "player_pants.rttex",
+        "frame": [
+          96,
+          0,
+          32,
+          32
+        ],
+        "source_offset": 23809,
+        "clothing_type": 2,
+        "effects_implemented": []
+      },
+      {
+        "original_id": 82,
+        "name": "Green Skirt",
+        "asset": "pants",
+        "source": "player_pants.rttex",
+        "frame": [
+          128,
+          0,
+          32,
+          32
+        ],
+        "source_offset": 25599,
+        "clothing_type": 2,
+        "effects_implemented": []
+      }
+    ]
+  }
+}

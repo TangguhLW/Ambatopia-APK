@@ -1,0 +1,20 @@
+import {readFile,writeFile,copyFile,mkdir,readdir,stat} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const out='evidence/catalog-2026-10-22';await mkdir(out,{recursive:true});
+const coverage=JSON.parse(await readFile('research/catalog/coverage.json'));
+const windows=JSON.parse(await readFile('evidence/windows/qa-report.json'));
+const android=JSON.parse(await readFile('evidence/android/qa-report.json'));
+if(windows.failures.length||android.failures.length)throw Error('Exported QA has failures');
+const logs=await readFile('research/catalog/unit-final.log','utf8');
+const counts=/CHECKS: (\d+) FAILED: 0/.exec(logs);if(!counts||/SCRIPT ERROR|ERROR:|FAIL:/.test(logs))throw Error('Unit evidence missing or failed');
+const report={date:'2026-10-22',milestone:'Local reference visual revision and version27 catalog integration',ambatopia_changes:false,subagents:false,public_deployment:false,verified:{godot_checks:Number(counts[1]),godot_failures:0,node_tests:13,node_failures:0,windows_exported_checks:windows.checks.length,android_exported_checks:android.checks.length,android_device:'Xiaomi M2003J15SC / Android12 / arm64',portrait_and_landscape:'390×844 / 844×390 renderer captures; physical Android landscape'},catalog:{version:27,metadata:coverage.parsed,declared:coverage.declared,local_textures:coverage.local_textures,static_previews:coverage.preview,wearable:coverage.equipment,documented_effect_semantics:2,native_effect_reference_entries:coverage.effect_reference_entries,local_gameplay_effects:1,visual_special_effects:0,wiki_corroborated:5},artifacts:[],timings:{windows:windows.timings_ms,android:android.timings_ms},limits:['Local simulation only; no real online authentication/multiplayer/server authority','29 wearable items / 4036 clothing records; remaining clothing preview/metadata only','Static frame previews do not prove native animation, special rendering or body replacement','Angel Wings double jump works locally; exact native movement constants unverified','Titles/badges, pets, special particles/trails, seed composition and other item gameplay remain unimplemented','Android short-sample p95 remains above 16.7 ms; no perfect or zero-lag claim','Visual comparison uses different login and tutorial/world states; no artificial similarity score'],references:{visual_revision:'evidence/fidelity-2026-10-22/result.json',catalog:'research/catalog/README.md',sources:'research/catalog/source-inventory.json'}};
+for(const path of ['build/windows/GrowtopiaReconstruction.exe','build/android/GrowtopiaReconstruction.apk']){const b=await readFile(path);report.artifacts.push({path,bytes:b.length,sha256:createHash('sha256').update(b).digest('hex')});}
+await copyFile('evidence/windows/qa-report.json',out+'/windows-qa.json');await copyFile('evidence/android/qa-report.json',out+'/android-qa.json');
+await copyFile('research/catalog/source-inventory.json',out+'/sources.json');await copyFile('research/catalog/coverage.json',out+'/coverage.json');
+await writeFile(out+'/result.json',JSON.stringify(report,null,2));await writeFile('evidence/acceptance.json',JSON.stringify(report,null,2));
+const board='evidence/fidelity-2026-10-22/';await mkdir(board+'catalog',{recursive:true});
+for(const file of (await readdir(out)).filter(n=>n.endsWith('.png')))await copyFile(out+'/'+file,board+'catalog/'+file);
+let html=await readFile(board+'comparison.html','utf8');html=html.replace(/<section id="catalog-update">[\s\S]*?<\/section>/,'');
+const section='<section id="catalog-update"><h2>Katalog dan wardrobe — revisi lanjutan</h2><p>16.434 metadata versi27; 8.188 preview statis; 29 wearable; satu efek gameplay lokal. Ini bukan seluruh animasi/efek Growtopia. Panel diuji pada desktop, portrait, landscape.</p><img src="catalog/wardrobe-desktop.png"><div class="pair"><img src="catalog/wardrobe-390x844.png"><img src="catalog/wardrobe-844x390.png"></div></section>';
+html=html.replace('</html>',section+'</html>');await writeFile(board+'comparison.html',html);
+console.log(JSON.stringify(report,null,2));

@@ -1,0 +1,101 @@
+{
+  "entries": {
+    "mtn_1": {
+      "source": "game/mtn_1.rttex",
+      "sha256": "d609038fb73c9f3560131b2506d098f904edf224a8393615f2351a9c2f3ae2e2",
+      "output": "assets/machines-weather/mtn_1.png",
+      "output_sha256": "548ffdeecb8455653ca81d25ae0173a1491912e69a944aa6646c737265177fe6",
+      "width": 590,
+      "height": 350,
+      "atlas": [
+        1024,
+        512
+      ]
+    },
+    "mtn_2": {
+      "source": "game/mtn_2.rttex",
+      "sha256": "aac69201621c114446a6eb5a79d049851d18399e305f46e8e67e1c2f676d5a1f",
+      "output": "assets/machines-weather/mtn_2.png",
+      "output_sha256": "63b963acb8a83d3fe6b4b855052ae411c4daa4d51e3c9fbc2f725189d801bb35",
+      "width": 516,
+      "height": 560,
+      "atlas": [
+        1024,
+        1024
+      ]
+    },
+    "mtn_3": {
+      "source": "game/mtn_3.rttex",
+      "sha256": "803086a8633b46fa28bc35d5a41095ad674b6d02fbd078b103d27d38e31aa52f",
+      "output": "assets/machines-weather/mtn_3.png",
+      "output_sha256": "7b99310c47830b11e7b82410bc825ddc5984eddfbaa271c37bfa27e18203b53e",
+      "width": 1104,
+      "height": 800,
+      "atlas": [
+        2048,
+        1024
+      ]
+    },
+    "mtn_sky": {
+      "source": "game/mtn_sky.rttex",
+      "sha256": "225aba6694f820c2cdbc589c06a071ec21a797d0e77577705ffe1cff64228e7c",
+      "output": "assets/machines-weather/mtn_sky.png",
+      "output_sha256": "1e3adaab0c1e7f1cdbe8cbb9a860fd518aa5b1ce28827fef17609ce1a046b82e",
+      "width": 32,
+      "height": 32,
+      "atlas": [
+        32,
+        32
+      ]
+    },
+    "hills1_growtopia": {
+      "source": "game/hills1_growtopia.rttex",
+      "sha256": "0071f3ea14d4f7c649c91e7970af3a3d0262aaa2487169a17865398ea8ff1636",
+      "output": "assets/machines-weather/hills1_growtopia.png",
+      "output_sha256": "784e9d2b479eadeebb27dcbe5e52d140ec5135ff746730a3446866e6f323b9dc",
+      "width": 1397,
+      "height": 274,
+      "atlas": [
+        2048,
+        512
+      ]
+    },
+    "hills2_growtopia": {
+      "source": "game/hills2_growtopia.rttex",
+      "sha256": "2a0fa6532b5e4036da681b1a624f297b1f6b5145a439954bd3f436b803345eaf",
+      "output": "assets/machines-weather/hills2_growtopia.png",
+      "output_sha256": "19f4ec7ebc6f1d722dcdd37c1af895e503c9494c2e9f3eefd5c0383e3d5f347f",
+      "width": 1397,
+      "height": 740,
+      "atlas": [
+        2048,
+        1024
+      ]
+    },
+    "hills3_growtopia": {
+      "source": "game/hills3_growtopia.rttex",
+      "sha256": "4ca64bf65d560592dd63558eaac4f3da28c6af43b4ee4be8d784ea6398a18fb9",
+      "output": "assets/machines-weather/hills3_growtopia.png",
+      "output_sha256": "fa22886cfeba3b066d1f1e590245d5243d166da435e8583fc61aaf130ed59b9b",
+      "width": 1397,
+      "height": 720,
+      "atlas": [
+        2048,
+        1024
+      ]
+    },
+    "haze": {
+      "source": "game/haze.rttex",
+      "sha256": "fa80978b98c0e6e6f7c5c6ed0738b38adb34c87222a453d0635e1f707ea5ba28",
+      "output": "assets/machines-weather/haze.png",
+      "output_sha256": "f3a6b20a2b64cbe187d33654476789e21d2d6a2301d0dda81bd2b01df213da00",
+      "width": 512,
+      "height": 128,
+      "atlas": [
+        512,
+        128
+      ]
+    }
+  },
+  "reference": "Read-only native RTTEX assets; dedicated layout is an adaptation because the simulator has no frozen/celebrity recipe."
+}

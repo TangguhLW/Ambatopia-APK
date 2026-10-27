@@ -1,0 +1,10 @@
+import {readFile,writeFile,mkdir,cp,readdir,copyFile} from 'node:fs/promises';
+import {resolve,dirname} from 'node:path';
+import {createHash} from 'node:crypto';
+const root=resolve('.'),web=resolve('../growtopia-local'),out=resolve('web-client');
+await mkdir(out+'/reference',{recursive:true});await mkdir(out+'/data',{recursive:true});
+for(const name of ['screens','engine'])await cp(web+'/game/'+name,out+'/reference/'+name,{recursive:true});
+for(const name of ['about.mjs','audio.mjs','catalog.mjs','chat-sheet.mjs','contract.mjs','dom.mjs','editor-format.mjs','interactions.mjs','menu-mascot.mjs','menu-scene.mjs','options.mjs','preferences.mjs','remove-discord.mjs','tool-layout.mjs','tool-sidebar.mjs','tool-chrome.mjs','ui-icons.mjs','world-format.mjs'])await copyFile(web+'/game/'+name,out+'/reference/'+name);
+const index=JSON.parse(await readFile('data/catalog-index.json'));await writeFile(out+'/data/item-bridge.json',JSON.stringify(Object.fromEntries(index.entries.filter(e=>e.slot).map(e=>[e.id,e.slot]))));
+await writeFile(out+'/data/network.json',await readFile('data/network.json'));
+console.log('Frontend reference copied read-only; dedicated public config only.');

@@ -1,0 +1,7 @@
+{
+  "source": "C:/Users/user/AppData/Local/Growtopia/game/seed.rttex",
+  "sha256": "78b4ba12c42bbd2eb322d1a77ee65533a0174e155048df9dd13674fe7c190775",
+  "seed_icons": 8254,
+  "descriptions": 4036,
+  "composition": "16px seed base + 60% overlay, recovered RGBA source colors; resized by Godot"
+}

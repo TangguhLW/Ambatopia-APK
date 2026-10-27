@@ -1,0 +1,874 @@
+[
+  {
+    "name": "tiles_page1.rttex",
+    "source": "game/tiles_page1.rttex",
+    "source_sha256": "f5977fbb3ddf2e7f2ac2dfe9b8de5daf5ea27303d9cd698c14cef0a1dc84b367",
+    "path": "assets/catalog/671b36f4b63e46315fb01f9f.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "player_faceitem.rttex",
+    "source": "game/player_faceitem.rttex",
+    "source_sha256": "d775178bb580af8519f61ad79b13634a753373a52c8a817134aff67015158d03",
+    "path": "assets/catalog/2d29c7040a3bd502a06cec91.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_shirt.rttex",
+    "source": "game/player_shirt.rttex",
+    "source_sha256": "1659660b1ae31748a9e6e023e87a25f7561badcd7624e99b148062311e15e469",
+    "path": "assets/catalog/f3625306e13d06ca6721f50c.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet.rttex",
+    "source": "game/player_feet.rttex",
+    "source_sha256": "cc764aa9995cedd0a8b13abc146f6a5e0fec7c309211edf5c9c3ec0dc5c5d4eb",
+    "path": "assets/catalog/385fc39ea79fbb09944a9492.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_hairhair.rttex",
+    "source": "game/player_hairhair.rttex",
+    "source_sha256": "6f28845dbb91310571949882c820a2cba9a46a7bf06270c49ce4b933c8d3fccf",
+    "path": "assets/catalog/b52af415f657d5e13952e2a0.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_hair.rttex",
+    "source": "game/player_hair.rttex",
+    "source_sha256": "42846042b574187b2a4a56148aaeb9684335cf6f579292c9e1f94aff4e2978ad",
+    "path": "assets/catalog/1e5421286a9f2d57d7c1e111.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_pants.rttex",
+    "source": "game/player_pants.rttex",
+    "source_sha256": "e857a8eaf1bb2d32d1b11337a06af6a6c374bb9ff7bc9cad5e6ba8b530d42ff3",
+    "path": "assets/catalog/32a83e5e8220e34330cefeda.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_handitem.rttex",
+    "source": "game/player_handitem.rttex",
+    "source_sha256": "46a805485aecf849ac1a210ae5edafa1f7325edc587b382dc144d8d50465b72f",
+    "path": "assets/catalog/88ab94d54c5b9750ec5849d6.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_back.rttex",
+    "source": "game/player_back.rttex",
+    "source_sha256": "966745ea8293c1524f636ed49d84ceb787672d603d0bc8c3ed442e1e665086d2",
+    "path": "assets/catalog/ca7f51c3f1a308047b637129.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_face.rttex",
+    "source": "game/player_face.rttex",
+    "source_sha256": "6faaa3c98cf540de8b12ff388648e8949ca6cecface7b1ad05bfe62acb0b1be0",
+    "path": "assets/catalog/07074810c69e6e7e9eb9f273.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page2.rttex",
+    "source": "game/tiles_page2.rttex",
+    "source_sha256": "8dd0c406d82505777fbd5ce3d4ccfd08bdc915a7bb3c879d32bec5b9e0862880",
+    "path": "assets/catalog/061ae4d06e6d6b2a5cca8a92.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "amorkolg.rttex",
+    "source": "game/amorkolg.rttex",
+    "source_sha256": "9e032a67acd61ed277f2488ed5aa94e327aef3d71f7b7c79838878efd6a58bcc",
+    "path": "assets/catalog/240ebf30c377425df3d131fe.png",
+    "width": 512,
+    "height": 256
+  },
+  {
+    "name": "player_hair2.rttex",
+    "source": "game/player_hair2.rttex",
+    "source_sha256": "4ba9b62fcd10e3869a74384653b9af63f6779a998162456daf5ba145bf5719f2",
+    "path": "assets/catalog/f13a6d3a9808bc3213859a46.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet2.rttex",
+    "source": "game/player_feet2.rttex",
+    "source_sha256": "84020cb43e37b3c8a862e51be84bdb096e5c9844763147e8a1d07aaf7b930090",
+    "path": "assets/catalog/5ba64a3388ff9cc28e3d6db5.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_chestitem.rttex",
+    "source": "game/player_chestitem.rttex",
+    "source_sha256": "a425becc4137e86daca5a75da6d046adeda8d1a685fc35671568aef150ab7916",
+    "path": "assets/catalog/35b71867768791c1e9685d07.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_handitem2.rttex",
+    "source": "game/player_handitem2.rttex",
+    "source_sha256": "36b8dacca8273986abdfbf23253de4f7f11c8c202c07c6a7f69d5e0734545716",
+    "path": "assets/catalog/69478d5b65ccc167a6562673.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page3.rttex",
+    "source": "game/tiles_page3.rttex",
+    "source_sha256": "f530ce84e59aa39bb2635798464ca2d7ba27032fd5fb7c6e01abe3ec6c29e172",
+    "path": "assets/catalog/985a26ece81984e2610704ec.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_faceitem2.rttex",
+    "source": "game/player_faceitem2.rttex",
+    "source_sha256": "7aaf6727b9b43b9dcd3f2dd7d858ba4744f80e4ab357c67d8c90b52f47a75296",
+    "path": "assets/catalog/68c22c7da0d7799a16941119.png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "player_shirt2.rttex",
+    "source": "game/player_shirt2.rttex",
+    "source_sha256": "b5e80a941e8e95a370314a5c63fd9b1a202bcdc96127b8da441db3afd93cbe1b",
+    "path": "assets/catalog/a2072bab0837e777e2051017.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet3.rttex",
+    "source": "game/player_feet3.rttex",
+    "source_sha256": "b38f1883265f425e3d0a733762a7d73646dbef2e92c6dbeac9fde1816e166af4",
+    "path": "assets/catalog/569c44eebf8608aad016c7af.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "vilpix.rttex",
+    "source": "game/vilpix.rttex",
+    "source_sha256": "9fc39d2d8236d005ba2f6cddfb149c5859685210f3d7b477f84c1832b0a47fe3",
+    "path": "assets/catalog/901c544c874d0f6c6013dc71.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_back2.rttex",
+    "source": "game/player_back2.rttex",
+    "source_sha256": "fd00ba145d07d325e484707f263002c25e4de3a469144f95b38c7ff5cd5ea901",
+    "path": "assets/catalog/cba9e39d68a8f5843579bacb.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_hairhair2.rttex",
+    "source": "game/player_hairhair2.rttex",
+    "source_sha256": "6ef74187da77410b7a5eff349d0821093d6b3a6c0b1f333e3f4ccd3b5ae497f6",
+    "path": "assets/catalog/c1f99c131a2258dd24582528.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page4.rttex",
+    "source": "game/tiles_page4.rttex",
+    "source_sha256": "ad849d1f12d9aa267465b39516c930450f5eee9e11de1dc74ced04259ce79a6a",
+    "path": "assets/catalog/fd89fa75765d5ed6d0ac1368.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_handitem3.rttex",
+    "source": "game/player_handitem3.rttex",
+    "source_sha256": "21d0b9914f45990fdd0a7cb990f67123574d236fad74d04fbaba0a4d9981d9d6",
+    "path": "assets/catalog/5f8dd9a585505677b0c2cd26.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_faceitem3.rttex",
+    "source": "game/player_faceitem3.rttex",
+    "source_sha256": "a5c9e233b1b18428f6c372e5fb336f8a2bef4eeee1d4fead117aa987d19cb1ef",
+    "path": "assets/catalog/89f7a8a0d33f53de462265f2.png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "player_pants2.rttex",
+    "source": "game/player_pants2.rttex",
+    "source_sha256": "d3da2f8d94d9d0bbc8ee8b04d788f11409b81195a89517537ec29bb268ecb042",
+    "path": "assets/catalog/9053a9b05296e5befc4479a4.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page8.rttex",
+    "source": "game/tiles_page8.rttex",
+    "source_sha256": "7e8e6d595878c2e0b443d81eb7b03501a4b1afc702438554d24eee22b9f56338",
+    "path": "assets/catalog/137536fe1f5ae2734bab2074.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "fish_page1.rttex",
+    "source": "game/fish_page1.rttex",
+    "source_sha256": "74fdef9bf2dbe28e3991d3d90f6b8ec8fa173589aeba2084b8984105ff023efa",
+    "path": "assets/catalog/bf45bfc93046ddc4449bbcbf.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_feet4.rttex",
+    "source": "game/player_feet4.rttex",
+    "source_sha256": "ae86d2a9989c369c862b2f1f1287882aa9c4a11b2e4700174d9c72b2e3a61aa5",
+    "path": "assets/catalog/7861ccd5e0fe6ba319549ccf.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page5.rttex",
+    "source": "game/tiles_page5.rttex",
+    "source_sha256": "6320d989fcf8da517800637d340875eef5d75387970dd6de6e8813ce2c784250",
+    "path": "assets/catalog/016bef50a7d5627a00f4d36c.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "tiles_page6.rttex",
+    "source": "game/tiles_page6.rttex",
+    "source_sha256": "dd0a81de263559d6b435333284662c51915f9d47653e0154bdbbe96bb52e112d",
+    "path": "assets/catalog/d3b9d301941cf27de54a040a.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_handitem4.rttex",
+    "source": "game/player_handitem4.rttex",
+    "source_sha256": "d2c2d9fe6a854a498b54bbabcb211518812514911c704212928705e7fe9f666c",
+    "path": "assets/catalog/e3e81db39ed30f5eaae8ac58.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet5.rttex",
+    "source": "game/player_feet5.rttex",
+    "source_sha256": "4c68eac570d720430710176f637c56a66922192c32ac44bcb0b77f89e0c99902",
+    "path": "assets/catalog/0eb7a00a999a85ed2f20009a.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page7.rttex",
+    "source": "game/tiles_page7.rttex",
+    "source_sha256": "ece9012991790e9ae9360c1b7da7e4206497efb67462c9ea2feb53fcce00acfc",
+    "path": "assets/catalog/07093066fff72c748d804f49.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_faceitem4.rttex",
+    "source": "game/player_faceitem4.rttex",
+    "source_sha256": "7fb5044dd4fcd076482124a5f5cf145bb5296de3be153c9c2a5e3c942b045c44",
+    "path": "assets/catalog/4a7e7d512f8d450d97d4908f.png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "tiles_page10.rttex",
+    "source": "game/tiles_page10.rttex",
+    "source_sha256": "c897fbc08c4ca08a081123a3a2cd8e050f0421a1134998dc344c38fd7b3623f6",
+    "path": "assets/catalog/c907b15590df1836c6b9f8f0.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_shirt3.rttex",
+    "source": "game/player_shirt3.rttex",
+    "source_sha256": "c100dc6219232efa2825f6232d88fc0dd34812e6fd0c890561c77876d0f90e2a",
+    "path": "assets/catalog/8b880da83cc9381ad9e9706a.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_faceitem5.rttex",
+    "source": "game/player_faceitem5.rttex",
+    "source_sha256": "383e84e617e2a46df7b48bddd12518b6c540a1be799b19935b5b0997e7e66f1f",
+    "path": "assets/catalog/20e9224e5796f23ced2b4bfd.png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "player_feet6.rttex",
+    "source": "game/player_feet6.rttex",
+    "source_sha256": "9f25ec2dccabdea6c73753a86b79958468e4e76bf783acc4db3d80dec9e8267d",
+    "path": "assets/catalog/b5529a2debf5da763809c24b.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "d_aura.rttex",
+    "source": "game/d_aura.rttex",
+    "source_sha256": "f5ecb5cfec7e48310bc2a0df2c4e7b570e0809510f680910ba91b0ac4018e005",
+    "path": "assets/catalog/86de3ddc54883dc60e109ca7.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_artifact.rttex",
+    "source": "game/player_artifact.rttex",
+    "source_sha256": "1045ccdcf1adde1ecddf2d1ec5bfbcb7404ec568f3e939bbfebdeadd09147cd8",
+    "path": "assets/catalog/68ca1612c31baea5dfa3d52e.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "tiles_page9.rttex",
+    "source": "game/tiles_page9.rttex",
+    "source_sha256": "09ecbad2b78350cf5f70ffa3d03b25b0911a17ccd471a18aeff02616a65098d0",
+    "path": "assets/catalog/903e522ddde777ed92c287f5.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_chestitem2.rttex",
+    "source": "game/player_chestitem2.rttex",
+    "source_sha256": "7364455f9e686f7e48ce27ee49288f3b36417056ca0c611202d5f6d40b3dc256",
+    "path": "assets/catalog/e410eb48f1a11e3b27ca1886.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_faceitem6.rttex",
+    "source": "game/player_faceitem6.rttex",
+    "source_sha256": "83049934e64a90ad95fb8525375345679e32d552ca12046d7859cfd919eff2ee",
+    "path": "assets/catalog/44289241d78fe258772727c3.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_hair3.rttex",
+    "source": "game/player_hair3.rttex",
+    "source_sha256": "84817eee9564a85ee58deb376df1df4888a7af5128ef3faff6d3df1e0a33f2d0",
+    "path": "assets/catalog/38fc106f5f5b02203b29a7cd.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_handitem5.rttex",
+    "source": "game/player_handitem5.rttex",
+    "source_sha256": "04baf7d48914107a66c65854966878cd8510392e49291bebf57d55a3b3eef7b8",
+    "path": "assets/catalog/3a1ffab3f64bda07408c7aac.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet7.rttex",
+    "source": "game/player_feet7.rttex",
+    "source_sha256": "689d9bdb6b492c4445941c838997eab520bee99fc2accdfc38ae624fb1389371",
+    "path": "assets/catalog/b8e6329ce9b5024294ed8969.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "gd_page1.rttex",
+    "source": "game/gd_page1.rttex",
+    "source_sha256": "e0ecd9d40958211c746d9e523374789035ede5391652986b99d45eaf078a52f0",
+    "path": "assets/catalog/f0f92eefb81334cbb466e72e.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "tiles_page11.rttex",
+    "source": "game/tiles_page11.rttex",
+    "source_sha256": "262399f990afebaa61cd792f0e90d72795e356b88da600ae962f38d80885b85a",
+    "path": "assets/catalog/26ce7ed35d59073c505df7c5.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "gd_page2.rttex",
+    "source": "game/gd_page2.rttex",
+    "source_sha256": "f90204c2c70341996a2ac702fbb723c1cf771e8e1cde2ce70d545b4e34c3f185",
+    "path": "assets/catalog/309cb4352feb0a073836ccfa.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_hair4.rttex",
+    "source": "game/player_hair4.rttex",
+    "source_sha256": "b52c9e7794517eb4a3afb6e3c4b54040981887155f94a34f4c69a367cbec23fa",
+    "path": "assets/catalog/85cc06e04ef74f9cc962fc34.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_faceitem7.rttex",
+    "source": "game/player_faceitem7.rttex",
+    "source_sha256": "7de3b895d24db1e71277a14418d268c9a533833b0a88f5633afb5e6fb00d7343",
+    "path": "assets/catalog/6055849daf6e8b82e41ee6be.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet8.rttex",
+    "source": "game/player_feet8.rttex",
+    "source_sha256": "9e80d5f46d06e7f7dd4f979a20a2cc0437308a267e47e26fb0d99e0bec411bb0",
+    "path": "assets/catalog/9ee809d80545f0e473cc9db6.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_shirt4.rttex",
+    "source": "game/player_shirt4.rttex",
+    "source_sha256": "b88a7a79716ffee822c5ad5c8c45152a5e5a7f693bf7be690552d68c18da77de",
+    "path": "assets/catalog/ed73b456068387c9b4cc382a.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_pants3.rttex",
+    "source": "game/player_pants3.rttex",
+    "source_sha256": "477ba198257ed468bbcef28bbd73e4ab2f74776dadc84307a47878a67d43893b",
+    "path": "assets/catalog/dc4db96fb2eaea00eb2ec30c.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "stopia_page1.rttex",
+    "source": "game/stopia_page1.rttex",
+    "source_sha256": "dfe064dacd22d1a050b83bdbee69ad3f7aab1b024edaca4625073456ca10fc78",
+    "path": "assets/catalog/3ed9fefd282ddc9c50728dc9.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_handitem6.rttex",
+    "source": "game/player_handitem6.rttex",
+    "source_sha256": "fb4e112b3759360eae1ffd195c0ceb03944b85bd7e792b02dd0a85c466563ff0",
+    "path": "assets/catalog/8c0712fb985ae56d20d1fba7.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_back3.rttex",
+    "source": "game/player_back3.rttex",
+    "source_sha256": "c081bf49d163cee87cfae6181abc283f5ca27d0c68808f78dda8142151d4faf1",
+    "path": "assets/catalog/d267889dba1d3aaa93661643.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page12.rttex",
+    "source": "game/tiles_page12.rttex",
+    "source_sha256": "52c9071bda2954961d363a9eec5f30eb2ab435853cfbd00611d13b7c93546085",
+    "path": "assets/catalog/64fceeddd61e739fe301796b.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "gui_rol_1.rttex",
+    "source": "game/gui_rol_1.rttex",
+    "source_sha256": "dc5b89b59fa31d0216a5ed44158860f44733400cdc1bfd47846b1d0acf4aa71c",
+    "path": "assets/catalog/39854ca382b38af2cea4522f.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "gui_rol_2.rttex",
+    "source": "game/gui_rol_2.rttex",
+    "source_sha256": "ae03a025da7374cbe9e6bc252ce8cbf627a9ac9d15b33eb70dc1cb8353d33ec3",
+    "path": "assets/catalog/efd980b5df6a239baf8d2eac.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "gui_rol_3.rttex",
+    "source": "game/gui_rol_3.rttex",
+    "source_sha256": "537d2dfb98efb423b418ed39235422adf27889d179fd336ebf54e8ee89ad74e5",
+    "path": "assets/catalog/dc5e39543caab86b17a55540.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "gui_rol_4.rttex",
+    "source": "game/gui_rol_4.rttex",
+    "source_sha256": "65e5c4490b4ccdc6e7fbd814e76dbdb03dec8c0e4c31041316b72646650841d2",
+    "path": "assets/catalog/3aaa42184b45fb37aa681d66.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "gui_rol_5.rttex",
+    "source": "game/gui_rol_5.rttex",
+    "source_sha256": "79111cbb319c7e80593389876095dc10be8d4ad856874c97e9869406c0f02622",
+    "path": "assets/catalog/5b66a79c014d3538de202c6e.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "gui_rol_6.rttex",
+    "source": "game/gui_rol_6.rttex",
+    "source_sha256": "b38b03aba1e81072ced7dbf5dac7ccff0adfeec474373e877e8fbce47f3fe1c5",
+    "path": "assets/catalog/edcbf336d4c64553809fee81.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "gd_page3.rttex",
+    "source": "game/gd_page3.rttex",
+    "source_sha256": "f33155bce162e45fcd13512730cc0d01edcc0f4055e478763c31bfefeb3a6c30",
+    "path": "assets/catalog/679d038806a58bea0fd91f73.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "player_hater.rttex",
+    "source": "game/player_hater.rttex",
+    "source_sha256": "7bb30e59c17322c88e4c90caccd4f2a198d843d6fd462a8f0f1612ea04606682",
+    "path": "assets/catalog/f58ca910000be025defadf4e.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet9.rttex",
+    "source": "game/player_feet9.rttex",
+    "source_sha256": "44e9146be5805022d06521463829da467d34798906e072ccb8be9b360c5a5caf",
+    "path": "assets/catalog/b5cf68da1d2f59ea0d1bbe69.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_hair5.rttex",
+    "source": "game/player_hair5.rttex",
+    "source_sha256": "4a412ff8b562fc8ee107b8217802f01ea8ebaf3d486fafa07998f53088182e5f",
+    "path": "assets/catalog/d1d1d8c53018db5192bff0c1.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_hater_icon.rttex",
+    "source": "game/player_hater_icon.rttex",
+    "source_sha256": "4641cfc3d50c2bb0bcd31b83f541be31110e2aa3d2c2ecd77ba1d8bc45509220",
+    "path": "assets/catalog/feb385651ef1826d9d679f93.png",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "name": "tiles_page13.rttex",
+    "source": "game/tiles_page13.rttex",
+    "source_sha256": "9a2d1125d7b775bb7e7a07738f4a5fa7bc110972c72b87831c896678a88fd228",
+    "path": "assets/catalog/fb402dde758ffa26f0eeb097.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "player_handitem7.rttex",
+    "source": "game/player_handitem7.rttex",
+    "source_sha256": "eec64ef8627d7c7f406cc30bbf92dd574f484a8093764bfcfa8e93278e9e9974",
+    "path": "assets/catalog/98cd789c44608a481bb8da21.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_shirt_monthly1.rttex",
+    "source": "game/player_shirt_monthly1.rttex",
+    "source_sha256": "54a1b1b884c4eecca17e5045fb02bfb13280023f077a5689e3f5dd3ff1ec840f",
+    "path": "assets/catalog/76ed550da938b45a30a61d08.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_hair_monthly1.rttex",
+    "source": "game/player_hair_monthly1.rttex",
+    "source_sha256": "e13cb33ec802f07791c5a68b0242c8371cc8d06a3622c5e2f87d105ee7572e74",
+    "path": "assets/catalog/d09e6893cf38fb31bfc83a9b.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_longhanditem1.rttex",
+    "source": "game/player_longhanditem1.rttex",
+    "source_sha256": "f0516379b1c8291dcebbaa1cfc89a931401d54637dba9b4574ae6a30ff8d1459",
+    "path": "assets/catalog/116466156bde3f158f973b58.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_pants_monthly1.rttex",
+    "source": "game/player_pants_monthly1.rttex",
+    "source_sha256": "8de83cee14af5c2f57e95f0d525d66dfd07597a51b098fdec72090a864186fb7",
+    "path": "assets/catalog/5aee119e1730c8ad6a72da28.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet_monthly1.rttex",
+    "source": "game/player_feet_monthly1.rttex",
+    "source_sha256": "70d9a234ef9298df097e3c4ab776fa64ffc7ba7a867312b102253061417ee66f",
+    "path": "assets/catalog/a8c20151b9f9c25af76c98a6.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_cosmetics2.rttex",
+    "source": "game/player_cosmetics2.rttex",
+    "source_sha256": "bd7aaf7974007cb48d0784976132f18bf7a2ba366ac7b39372db50c2addd176e",
+    "path": "assets/catalog/98b3dd177c511005076de48b.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "player_cosmetics1.rttex",
+    "source": "game/player_cosmetics1.rttex",
+    "source_sha256": "1d8dc904e4d42d97054712d0f3d8ddd28fcdb3d91fc23d1b0873067d50a207ff",
+    "path": "assets/catalog/3e417833cafe6da0d1b7d0b3.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "player_feet10.rttex",
+    "source": "game/player_feet10.rttex",
+    "source_sha256": "3d768601d61ea7fb10a2733fcaab5b402f8a78869ac03addc8f85d6e8473da1e",
+    "path": "assets/catalog/465479c4a955eb7e3efdb2c8.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page14.rttex",
+    "source": "game/tiles_page14.rttex",
+    "source_sha256": "bf4e1edd526d32581b88ac8c8d6df6e976ae34d00e3038b7ecb0bc029934292a",
+    "path": "assets/catalog/13b35d8e4218efc183c53db9.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "gui_board.rttex",
+    "source": "game/gui_board.rttex",
+    "source_sha256": "edd48b0097f392e90b42c19e34b79a5adb1541b9c10b80cbb137b3dabf747752",
+    "path": "assets/catalog/45c8d47c49530869112fe8f3.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "comhr.rttex",
+    "source": "game/comhr.rttex",
+    "source_sha256": "4994f57f4dc1c7ff56ce4044412dfc2f9e925e2e9183ad1183b77d7fef778743",
+    "path": "assets/catalog/07f4f60e7636d2feed210483.png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "player_feet11.rttex",
+    "source": "game/player_feet11.rttex",
+    "source_sha256": "85a811b194835ea33e656731d3337f27c5227092003c35e735a0b07b0d1a262f",
+    "path": "assets/catalog/fd86801b57fbfd393dfc3a86.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_feet12.rttex",
+    "source": "game/player_feet12.rttex",
+    "source_sha256": "73dd7bfb666b13d3eadb4e1fa79830edef7786b3d28ee7229df096e944335a9a",
+    "path": "assets/catalog/54d7e46a4d3f40b3d29d60ec.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_longhanditem2.rttex",
+    "source": "game/player_longhanditem2.rttex",
+    "source_sha256": "a3a538ade620507ab369c579c7d651ff894dbf60c0840bb4ba1d2f1d269ac282",
+    "path": "assets/catalog/e217c700f4b67dc60e5ca06d.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_feet13.rttex",
+    "source": "game/player_feet13.rttex",
+    "source_sha256": "258b0f82e78279c8758a200fb94e2950e4ba8e6802fe387cf79a098c43f57126",
+    "path": "assets/catalog/8467245ef18599ba4a8857e2.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_gch.rttex",
+    "source": "game/tiles_gch.rttex",
+    "source_sha256": "f5acdf8de7eb7f7be98e911cbec210356a346be34c9bcec675cad61bce81e491",
+    "path": "assets/catalog/a7aa732aac75c0d9b8161a34.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "es_egchmp.rttex",
+    "source": "game/es_egchmp.rttex",
+    "source_sha256": "b2e2a6b043c76b242f9e69020d35ff19acabbc6385f2dd62e6ffcae1fd780a54",
+    "path": "assets/catalog/9c5db86ee311b9c96248e02b.png",
+    "width": 256,
+    "height": 128
+  },
+  {
+    "name": "tiles_page16.rttex",
+    "source": "game/tiles_page16.rttex",
+    "source_sha256": "7f465f7b4368168c4da5e7faf38460336b80d5babacb225e4b3bf909262fb0a9",
+    "path": "assets/catalog/81fb9ee176b547b26b7b61bf.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "st_caura_icon.rttex",
+    "source": "game/st_caura_icon.rttex",
+    "source_sha256": "fd9005f85f8770af5d635872202e846eeef7e1febd598b08dde971003b2817ba",
+    "path": "assets/catalog/e2624e638d6a94f2af484edd.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "player_feet14.rttex",
+    "source": "game/player_feet14.rttex",
+    "source_sha256": "593e4c8dc7104b67af2e4b2c07ed14316b012aa928457f09a6111e1cf16fead2",
+    "path": "assets/catalog/262403a8f1a50a355f21e012.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "tiles_page15.rttex",
+    "source": "game/tiles_page15.rttex",
+    "source_sha256": "848936280baad634b19efe48cb9c2013f9ffbf338b0adc543231155b98c25a99",
+    "path": "assets/catalog/10d2740d4393b62e1175efdc.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "player_cosmetics3.rttex",
+    "source": "game/player_cosmetics3.rttex",
+    "source_sha256": "8f1cdb0684b530f7becc0a35e34ea742899706d3d0648a92f906e5760dd20053",
+    "path": "assets/catalog/8b09e23218847805da614eb5.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "bf_begchmp_icon.rttex",
+    "source": "game/bf_begchmp_icon.rttex",
+    "source_sha256": "9f6d78ecb03004ecdc4c948b3bb02384fc3f5426df36a23ee0648ad10f2defeb",
+    "path": "assets/catalog/007efa5c3e6fb175b34a52f8.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "io_rif_icon.rttex",
+    "source": "game/io_rif_icon.rttex",
+    "source_sha256": "cd071ace8a49953080297719eba2c379f55e56aee1032b92cd649f8b24b1599d",
+    "path": "assets/catalog/e9b00e45adc373881e145106.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "player_feet15.rttex",
+    "source": "game/player_feet15.rttex",
+    "source_sha256": "5f9a86bf73450fb2b068284b8256ec44cf73ca17e18ca2e5de955e881b6994da",
+    "path": "assets/catalog/47de8c111467bee94921067d.png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "name": "player_longhanditem3.rttex",
+    "source": "game/player_longhanditem3.rttex",
+    "source_sha256": "87176066c9a226212186eb78c5627608008f5e41eeb28e80f47bc7741c8eae3b",
+    "path": "assets/catalog/7380ad2844cd52b63d11c593.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "player_feet16.rttex",
+    "source": "game/player_feet16.rttex",
+    "source_sha256": "a8a274c4f540727badf3fa1c5f88d671ba231eaaf7880cd8cc93249d43a0d8b8",
+    "path": "assets/catalog/2b1cc12450380da9f617dc40.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "io_rif_wing_icon.rttex",
+    "source": "game/io_rif_wing_icon.rttex",
+    "source_sha256": "48b697276a93be9932dc007f08639f4c8bfc83a7dc98e9bb65fc66b29098ba41",
+    "path": "assets/catalog/78bbf6abbff34589260691e7.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "pets/p_tononab.rttex",
+    "source": "game/pets/p_tononab.rttex",
+    "source_sha256": "f0acc4e36d41511c8da63e637c3491207382e41bce02824c4f6a87ed7b80ca12",
+    "path": "assets/catalog/c1f8a01df4895c8f02b39acb.png",
+    "width": 128,
+    "height": 32
+  },
+  {
+    "name": "gui_board2.rttex",
+    "source": "game/gui_board2.rttex",
+    "source_sha256": "dfd18e02c99489585259454fb7360984fb15153103738eb699d162ac7f723d3a",
+    "path": "assets/catalog/90a4056489eefb6f8f03f84e.png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "name": "player_longhanditem4.rttex",
+    "source": "game/player_longhanditem4.rttex",
+    "source_sha256": "8d39fe727eb8d06670e329d22035c7cd8085d43699b47cf0327d9792ccaea837",
+    "path": "assets/catalog/71d7f5da23ae23c5060ffe19.png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "name": "tiles_page17.rttex",
+    "source": "game/tiles_page17.rttex",
+    "source_sha256": "f1fb926165b3b4d89ae5a60757a7a364c0cb54b9a6a7a81c72270d9a94b393be",
+    "path": "assets/catalog/33ade9ee572e2c1477dba439.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "tiles_candyblock.rttex",
+    "source": "game/tiles_candyblock.rttex",
+    "source_sha256": "bd757210863b9c2aa90ec66b4a846509de8029868b3118dd36016f2107e0b5af",
+    "path": "assets/catalog/195b129adf24e1e360e90edb.png",
+    "width": 256,
+    "height": 512
+  },
+  {
+    "name": "particles11.rttex",
+    "source": "game/particles11.rttex",
+    "source_sha256": "f8525bf8cb3c3495e1e7cec4bbf51b06543e009f08299030c9eb1355a95a1c7e",
+    "path": "assets/catalog/f1c9d6cef4b218abf55de42f.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "player_cosmetics4.rttex",
+    "source": "game/player_cosmetics4.rttex",
+    "source_sha256": "59f3695c2fe7e4c19d048f93973797a2c0665fcce4a1c8d044bc98ce48f7b2a7",
+    "path": "assets/catalog/f234753a013d4b5cc3e70d5b.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "name": "tiles_page18.rttex",
+    "source": "game/tiles_page18.rttex",
+    "source_sha256": "362d7e95c210f8a89868f52eafde1be108abe561b3ced72e67f492f8685ce961",
+    "path": "assets/catalog/5a8205b3a7e5c198858eb6a0.png",
+    "width": 1024,
+    "height": 1024
+  }
+]

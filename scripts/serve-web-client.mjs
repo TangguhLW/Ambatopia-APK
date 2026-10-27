@@ -1,0 +1,5 @@
+import {createServer} from 'node:http';
+import {readFile,stat,appendFile} from 'node:fs/promises';
+import {resolve,extname,sep} from 'node:path';
+const base=resolve('web-client/dist'),types={'.html':'text/html; charset=utf-8','.js':'application/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.svg':'image/svg+xml','.ttf':'font/ttf','.wav':'audio/wav','.mp3':'audio/mpeg','.wasm':'application/wasm'};
+createServer(async(req,res)=>{try{const url=new URL(req.url,'http://localhost');let path=resolve(base,'.'+decodeURIComponent(url.pathname));if(path!==base&&!path.startsWith(base+sep))throw Error('Invalid path');if((await stat(path)).isDirectory())path+='/index.html';const data=await readFile(path);res.setHeader('Content-Type',types[extname(path)]||'application/octet-stream');res.setHeader('Cache-Control','no-store');res.end(data);}catch{await appendFile('evidence/web-client/missing-assets.jsonl',JSON.stringify({path:req.url})+'\n');res.statusCode=404;res.end('Packaged resource not found');}}).listen(4196,'127.0.0.1',()=>console.log('Ambatopia packaged web preview: http://127.0.0.1:4196'));

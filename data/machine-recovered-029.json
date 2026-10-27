@@ -1,0 +1,5261 @@
+{
+  "reference": "Published wiki reward candidates, not recovered server RNG. Explicit creative selection avoids inventing undisclosed odds.",
+  "calendars": {
+    "5318": {
+      "year": 2017,
+      "source": "https://growtopiawiki.com/w/Winterfest_Calendar_-_2017",
+      "unlock_start_utc": "2017-12-01T05:00:00",
+      "limit": 25,
+      "used_item": 5320,
+      "groups": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "pool": [
+            {
+              "id": 2382,
+              "name": "Crime Wave",
+              "amount": 1
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1
+            },
+            {
+              "id": 1050,
+              "name": "Secret Of Growtopia",
+              "amount": 1
+            },
+            {
+              "id": 1778,
+              "name": "Deluxe Grow Spray",
+              "amount": 2
+            },
+            {
+              "id": 228,
+              "name": "Grow Spray Fertilizer",
+              "amount": 5
+            },
+            {
+              "id": 1384,
+              "name": "Glowing Nose",
+              "amount": 1
+            },
+            {
+              "id": 942,
+              "name": "Desert Blast",
+              "amount": 1
+            },
+            {
+              "id": 976,
+              "name": "Sungate",
+              "amount": 1
+            },
+            {
+              "id": 2704,
+              "name": "Gold Choker",
+              "amount": 1
+            },
+            {
+              "id": 126,
+              "name": "Devil Horns",
+              "amount": 1
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 1
+            },
+            {
+              "id": 3584,
+              "name": "Aqua Cave Crystal",
+              "amount": 5
+            },
+            {
+              "id": 3786,
+              "name": "Jigsaw Wallpaper",
+              "amount": 5
+            },
+            {
+              "id": 1396,
+              "name": "Doohickey",
+              "amount": 1
+            },
+            {
+              "id": 2798,
+              "name": "Well",
+              "amount": 1
+            },
+            {
+              "id": 120,
+              "name": "Mystery Block",
+              "amount": 1
+            },
+            {
+              "id": 2564,
+              "name": "Chocolate Block",
+              "amount": 5
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 120,
+              "name": "Mystery Block",
+              "amount": 1
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1
+            },
+            {
+              "id": 5002,
+              "name": "Playful Fire Sprite",
+              "amount": 1
+            },
+            {
+              "id": 5008,
+              "name": "Playful Water Sprite",
+              "amount": 1
+            },
+            {
+              "id": 5004,
+              "name": "Playful Wind Sprite",
+              "amount": 1
+            },
+            {
+              "id": 5006,
+              "name": "Playful Wood Sprite",
+              "amount": 1
+            },
+            {
+              "id": 1368,
+              "name": "Snowball",
+              "amount": 1
+            },
+            {
+              "id": 882,
+              "name": "Butterfly Leash",
+              "amount": 1
+            },
+            {
+              "id": 2992,
+              "name": "Wolf Whistle",
+              "amount": 1
+            },
+            {
+              "id": 3560,
+              "name": "Lock Mover",
+              "amount": 1
+            },
+            {
+              "id": 1636,
+              "name": "Awkward Friendly Unicorn",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "days": [
+            25
+          ],
+          "pool": [
+            {
+              "id": 5008,
+              "name": "Playful Water Sprite",
+              "amount": 1
+            },
+            {
+              "id": 5004,
+              "name": "Playful Wind Sprite",
+              "amount": 1
+            },
+            {
+              "id": 1758,
+              "name": "Growboard",
+              "amount": 1
+            },
+            {
+              "id": 808,
+              "name": "Blue Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 806,
+              "name": "Green Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 802,
+              "name": "Red Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 804,
+              "name": "Black Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 812,
+              "name": "Double Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 1636,
+              "name": "Awkward Friendly Unicorn",
+              "amount": 1
+            },
+            {
+              "id": 5456,
+              "name": "Silverstar Bow",
+              "amount": 1
+            },
+            {
+              "id": 5018,
+              "name": "Riding Chicken",
+              "amount": 1
+            },
+            {
+              "id": 5422,
+              "name": "Sleigh of Winter",
+              "amount": 1
+            },
+            {
+              "id": 5424,
+              "name": "Winter Frost Bow",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "odds": "unpublished; use explicit creative reward choice"
+    },
+    "7476": {
+      "year": 2018,
+      "source": "https://growtopiawiki.com/w/Winterfest_Calendar_-_2018",
+      "unlock_start_utc": "2018-12-01T05:00:00",
+      "limit": 25,
+      "used_item": 7478,
+      "groups": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "pool": [
+            {
+              "id": 7490,
+              "name": "Nutcracker Hat",
+              "amount": 1
+            },
+            {
+              "id": 7498,
+              "name": "Nutcracker Boots",
+              "amount": 1
+            },
+            {
+              "id": 7496,
+              "name": "Nutcracker Pants",
+              "amount": 1
+            },
+            {
+              "id": 7418,
+              "name": "Snowfrost's Top Hat",
+              "amount": 1
+            },
+            {
+              "id": 7420,
+              "name": "Snowfrost's Mask",
+              "amount": 1
+            },
+            {
+              "id": 7422,
+              "name": "Snowfrost's Suit",
+              "amount": 1
+            },
+            {
+              "id": 5382,
+              "name": "S'mores Block",
+              "amount": 1
+            },
+            {
+              "id": 128,
+              "name": "Golden Halo",
+              "amount": 1
+            },
+            {
+              "id": 5376,
+              "name": "Chocolate Sprinkles Block",
+              "amount": 2
+            },
+            {
+              "id": 2382,
+              "name": "Crime Wave",
+              "amount": 1
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1
+            },
+            {
+              "id": 1050,
+              "name": "Secret Of Growtopia",
+              "amount": 1
+            },
+            {
+              "id": 1778,
+              "name": "Deluxe Grow Spray",
+              "amount": 2
+            },
+            {
+              "id": 228,
+              "name": "Grow Spray Fertilizer",
+              "amount": 5
+            },
+            {
+              "id": 1384,
+              "name": "Glowing Nose",
+              "amount": 1
+            },
+            {
+              "id": 942,
+              "name": "Desert Blast",
+              "amount": 1
+            },
+            {
+              "id": 976,
+              "name": "Sungate",
+              "amount": 1
+            },
+            {
+              "id": 2704,
+              "name": "Gold Choker",
+              "amount": 1
+            },
+            {
+              "id": 126,
+              "name": "Devil Horns",
+              "amount": 1
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 1
+            },
+            {
+              "id": 3584,
+              "name": "Aqua Cave Crystal",
+              "amount": 5
+            },
+            {
+              "id": 3786,
+              "name": "Jigsaw Wallpaper",
+              "amount": 5
+            },
+            {
+              "id": 1396,
+              "name": "Doohickey",
+              "amount": 1
+            },
+            {
+              "id": 2798,
+              "name": "Well",
+              "amount": 1
+            },
+            {
+              "id": 120,
+              "name": "Mystery Block",
+              "amount": 1
+            },
+            {
+              "id": 2564,
+              "name": "Chocolate Block",
+              "amount": 5
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 120,
+              "name": "Mystery Block",
+              "amount": 1
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1
+            },
+            {
+              "id": 5002,
+              "name": "Playful Fire Sprite",
+              "amount": 1
+            },
+            {
+              "id": 5008,
+              "name": "Playful Water Sprite",
+              "amount": 1
+            },
+            {
+              "id": 5004,
+              "name": "Playful Wind Sprite",
+              "amount": 1
+            },
+            {
+              "id": 5006,
+              "name": "Playful Wood Sprite",
+              "amount": 1
+            },
+            {
+              "id": 1368,
+              "name": "Snowball",
+              "amount": 1
+            },
+            {
+              "id": 882,
+              "name": "Butterfly Leash",
+              "amount": 1
+            },
+            {
+              "id": 2992,
+              "name": "Wolf Whistle",
+              "amount": 1
+            },
+            {
+              "id": 3560,
+              "name": "Lock Mover",
+              "amount": 1
+            },
+            {
+              "id": 1636,
+              "name": "Awkward Friendly Unicorn",
+              "amount": 1
+            },
+            {
+              "id": 3818,
+              "name": "Portrait",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "days": [
+            25
+          ],
+          "pool": [
+            {
+              "id": 5008,
+              "name": "Playful Water Sprite",
+              "amount": 1
+            },
+            {
+              "id": 5004,
+              "name": "Playful Wind Sprite",
+              "amount": 1
+            },
+            {
+              "id": 1758,
+              "name": "Growboard",
+              "amount": 1
+            },
+            {
+              "id": 808,
+              "name": "Blue Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 806,
+              "name": "Green Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 802,
+              "name": "Red Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 804,
+              "name": "Black Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 812,
+              "name": "Double Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 1636,
+              "name": "Awkward Friendly Unicorn",
+              "amount": 1
+            },
+            {
+              "id": 5456,
+              "name": "Silverstar Bow",
+              "amount": 1
+            },
+            {
+              "id": 5018,
+              "name": "Riding Chicken",
+              "amount": 1
+            },
+            {
+              "id": 5422,
+              "name": "Sleigh of Winter",
+              "amount": 1
+            },
+            {
+              "id": 5424,
+              "name": "Winter Frost Bow",
+              "amount": 1
+            },
+            {
+              "id": 7424,
+              "name": "Snowfrost's Candy Cane Blade",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "odds": "unpublished; use explicit creative reward choice"
+    },
+    "9224": {
+      "year": 2019,
+      "source": "https://growtopiawiki.com/w/Winterfest_Calendar_-_2019",
+      "unlock_start_utc": "2019-12-01T05:00:00",
+      "limit": 25,
+      "used_item": 9226,
+      "groups": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "pool": [
+            {
+              "id": 8802,
+              "name": "Vertentacles",
+              "amount": 5
+            },
+            {
+              "id": 8800,
+              "name": "Horizontacles",
+              "amount": 5
+            },
+            {
+              "id": 6956,
+              "name": "Beat-root Block",
+              "amount": 5
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1
+            },
+            {
+              "id": 3584,
+              "name": "Aqua Cave Crystal",
+              "amount": 5
+            },
+            {
+              "id": 6414,
+              "name": "Star Tool Droid",
+              "amount": 1
+            },
+            {
+              "id": 8480,
+              "name": "Gem Hair",
+              "amount": 1
+            },
+            {
+              "id": 8554,
+              "name": "Caduceaxe",
+              "amount": 1
+            },
+            {
+              "id": 8210,
+              "name": "Dinosaur Wallpaper",
+              "amount": 5
+            },
+            {
+              "id": 8534,
+              "name": "Vaccine Drop",
+              "amount": 5
+            },
+            {
+              "id": 8664,
+              "name": "Bountiful Jungle Temple Pillar",
+              "amount": 5
+            },
+            {
+              "id": 8262,
+              "name": "Dark Castle Stone",
+              "amount": 5
+            },
+            {
+              "id": 8976,
+              "name": "Droid Pet",
+              "amount": 1
+            },
+            {
+              "id": 8280,
+              "name": "Kitty Block",
+              "amount": 1
+            },
+            {
+              "id": 8278,
+              "name": "Doggy Block",
+              "amount": 1
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 8728,
+              "name": "Monk's Hood",
+              "amount": 1
+            },
+            {
+              "id": 7420,
+              "name": "Snowfrost's Mask",
+              "amount": 1
+            },
+            {
+              "id": 7418,
+              "name": "Snowfrost's Top Hat",
+              "amount": 1
+            },
+            {
+              "id": 7422,
+              "name": "Snowfrost's Suit",
+              "amount": 1
+            },
+            {
+              "id": 1368,
+              "name": "Snowball",
+              "amount": 1
+            },
+            {
+              "id": 8246,
+              "name": "Starship Security Camera",
+              "amount": 1
+            },
+            {
+              "id": 5382,
+              "name": "S'mores Block",
+              "amount": 2
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1
+            },
+            {
+              "id": 6986,
+              "name": "Aquamarine Stone",
+              "amount": 1
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 1
+            },
+            {
+              "id": 1384,
+              "name": "Glowing Nose",
+              "amount": 1
+            },
+            {
+              "id": 7006,
+              "name": "Space Rock",
+              "amount": 1
+            },
+            {
+              "id": 2564,
+              "name": "Chocolate Block",
+              "amount": 5
+            },
+            {
+              "id": 8980,
+              "name": "Barbed Wire Barrier",
+              "amount": 1
+            },
+            {
+              "id": 6970,
+              "name": "Bio-Waste",
+              "amount": 1
+            },
+            {
+              "id": 3676,
+              "name": "Pet Trainer Whistle",
+              "amount": 1
+            },
+            {
+              "id": 8254,
+              "name": "Copper Block",
+              "amount": 5
+            },
+            {
+              "id": 5376,
+              "name": "Chocolate Sprinkles Block",
+              "amount": 1
+            },
+            {
+              "id": 5792,
+              "name": "ShockBot - Level 2",
+              "amount": 1
+            },
+            {
+              "id": 8546,
+              "name": "Vile Vial - Ecto-Bones",
+              "amount": 1
+            },
+            {
+              "id": 8712,
+              "name": "Bountiful Growtopian-Eating Looming Plant",
+              "amount": 5
+            },
+            {
+              "id": 7864,
+              "name": "Luxurious Wall Clock",
+              "amount": 1
+            },
+            {
+              "id": 8984,
+              "name": "Regal Stairs",
+              "amount": 1
+            },
+            {
+              "id": 7498,
+              "name": "Nutcracker Boots",
+              "amount": 1
+            },
+            {
+              "id": 7490,
+              "name": "Nutcracker Hat",
+              "amount": 1
+            },
+            {
+              "id": 6384,
+              "name": "Robot Legs",
+              "amount": 1
+            },
+            {
+              "id": 8960,
+              "name": "Spring-Loaded Fists",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "days": [
+            25
+          ],
+          "pool": [
+            {
+              "id": 812,
+              "name": "Double Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 7738,
+              "name": "Dragon Throne",
+              "amount": 1
+            },
+            {
+              "id": 802,
+              "name": "Red Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 7752,
+              "name": "Gourmet Dragon Claw",
+              "amount": 1
+            },
+            {
+              "id": 1758,
+              "name": "Growboard",
+              "amount": 1
+            },
+            {
+              "id": 8468,
+              "name": "Howly Hat",
+              "amount": 1
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 8474,
+              "name": "Cupcake Hat",
+              "amount": 1
+            },
+            {
+              "id": 5018,
+              "name": "Riding Chicken",
+              "amount": 1
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1
+            },
+            {
+              "id": 9182,
+              "name": "Frosty Wings",
+              "amount": 1
+            },
+            {
+              "id": 5798,
+              "name": "SpikeBot - Level 2",
+              "amount": 1
+            },
+            {
+              "id": 5786,
+              "name": "FlameBot - Level 2",
+              "amount": 1
+            },
+            {
+              "id": 8280,
+              "name": "Kitty Block",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "odds": "unpublished; use explicit creative reward choice"
+    },
+    "10446": {
+      "year": 2020,
+      "source": "https://growtopiawiki.com/w/Winterfest_Calendar_-_2020",
+      "unlock_start_utc": "2020-12-01T05:00:00",
+      "limit": 25,
+      "used_item": 10448,
+      "groups": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "pool": [
+            {
+              "id": 8802,
+              "name": "Vertentacles",
+              "amount": 5
+            },
+            {
+              "id": 8800,
+              "name": "Horizontacles",
+              "amount": 5
+            },
+            {
+              "id": 6956,
+              "name": "Beat-root Block",
+              "amount": 5
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1
+            },
+            {
+              "id": 3584,
+              "name": "Aqua Cave Crystal",
+              "amount": 5
+            },
+            {
+              "id": 6414,
+              "name": "Star Tool Droid",
+              "amount": 1
+            },
+            {
+              "id": 8480,
+              "name": "Gem Hair",
+              "amount": 1
+            },
+            {
+              "id": 8554,
+              "name": "Caduceaxe",
+              "amount": 1
+            },
+            {
+              "id": 8210,
+              "name": "Dinosaur Wallpaper",
+              "amount": 5
+            },
+            {
+              "id": 8534,
+              "name": "Vaccine Drop",
+              "amount": 5
+            },
+            {
+              "id": 8664,
+              "name": "Bountiful Jungle Temple Pillar",
+              "amount": 5
+            },
+            {
+              "id": 8262,
+              "name": "Dark Castle Stone",
+              "amount": 5
+            },
+            {
+              "id": 8976,
+              "name": "Droid Pet",
+              "amount": 1
+            },
+            {
+              "id": 8280,
+              "name": "Kitty Block",
+              "amount": 1
+            },
+            {
+              "id": 8278,
+              "name": "Doggy Block",
+              "amount": 1
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 8728,
+              "name": "Monk's Hood",
+              "amount": 1
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1
+            },
+            {
+              "id": 1368,
+              "name": "Snowball",
+              "amount": 1
+            },
+            {
+              "id": 8246,
+              "name": "Starship Security Camera",
+              "amount": 1
+            },
+            {
+              "id": 5382,
+              "name": "S'mores Block",
+              "amount": 2
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1
+            },
+            {
+              "id": 6986,
+              "name": "Aquamarine Stone",
+              "amount": 1
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 1
+            },
+            {
+              "id": 1384,
+              "name": "Glowing Nose",
+              "amount": 1
+            },
+            {
+              "id": 7006,
+              "name": "Space Rock",
+              "amount": 1
+            },
+            {
+              "id": 2564,
+              "name": "Chocolate Block",
+              "amount": 5
+            },
+            {
+              "id": 8980,
+              "name": "Barbed Wire Barrier",
+              "amount": 1
+            },
+            {
+              "id": 6970,
+              "name": "Bio-Waste",
+              "amount": 1
+            },
+            {
+              "id": 3676,
+              "name": "Pet Trainer Whistle",
+              "amount": 1
+            },
+            {
+              "id": 8254,
+              "name": "Copper Block",
+              "amount": 5
+            },
+            {
+              "id": 5376,
+              "name": "Chocolate Sprinkles Block",
+              "amount": 1
+            },
+            {
+              "id": 5792,
+              "name": "ShockBot - Level 2",
+              "amount": 1
+            },
+            {
+              "id": 8546,
+              "name": "Vile Vial - Ecto-Bones",
+              "amount": 1
+            },
+            {
+              "id": 8712,
+              "name": "Bountiful Growtopian-Eating Looming Plant",
+              "amount": 5
+            },
+            {
+              "id": 7864,
+              "name": "Luxurious Wall Clock",
+              "amount": 1
+            },
+            {
+              "id": 8984,
+              "name": "Regal Stairs",
+              "amount": 1
+            },
+            {
+              "id": 7498,
+              "name": "Nutcracker Boots",
+              "amount": 1
+            },
+            {
+              "id": 7496,
+              "name": "Nutcracker Pants",
+              "amount": 1
+            },
+            {
+              "id": 7490,
+              "name": "Nutcracker Hat",
+              "amount": 1
+            },
+            {
+              "id": 10486,
+              "name": "Snowy Tree Block",
+              "amount": 1
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1
+            },
+            {
+              "id": 10220,
+              "name": "Fossilized Spirit Block",
+              "amount": 1
+            },
+            {
+              "id": 10258,
+              "name": "Pigeon",
+              "amount": 1
+            },
+            {
+              "id": 7758,
+              "name": "Prehistoric Dragon Claw",
+              "amount": 1
+            },
+            {
+              "id": 9356,
+              "name": "Magic Stones",
+              "amount": 10
+            },
+            {
+              "id": 7088,
+              "name": "Ezio's Armguards",
+              "amount": 1
+            },
+            {
+              "id": 7090,
+              "name": "Ezio's Beard",
+              "amount": 1
+            },
+            {
+              "id": 7094,
+              "name": "Ezio's Boots",
+              "amount": 1
+            },
+            {
+              "id": 7084,
+              "name": "Ezio's Cape",
+              "amount": 1
+            },
+            {
+              "id": 7092,
+              "name": "Ezio's Hair",
+              "amount": 1
+            },
+            {
+              "id": 7080,
+              "name": "Ezio's Hood",
+              "amount": 1
+            },
+            {
+              "id": 7086,
+              "name": "Ezio's Trousers",
+              "amount": 1
+            },
+            {
+              "id": 7082,
+              "name": "Ezio's Vest",
+              "amount": 1
+            },
+            {
+              "id": 7096,
+              "name": "Hay Cart",
+              "amount": 1
+            },
+            {
+              "id": 10032,
+              "name": "Axolotl Slippers",
+              "amount": 1
+            },
+            {
+              "id": 5780,
+              "name": "ShooterBot - Level 2",
+              "amount": 1
+            },
+            {
+              "id": 8722,
+              "name": "Flower Headband",
+              "amount": 1
+            },
+            {
+              "id": 9692,
+              "name": "Exo Suit Helmet",
+              "amount": 1
+            },
+            {
+              "id": 7760,
+              "name": "Star Dragon Claw",
+              "amount": 1
+            },
+            {
+              "id": 7420,
+              "name": "Snowfrost's Mask",
+              "amount": 1
+            },
+            {
+              "id": 7418,
+              "name": "Snowfrost's Top Hat",
+              "amount": 1
+            },
+            {
+              "id": 7422,
+              "name": "Snowfrost's Suit",
+              "amount": 1
+            },
+            {
+              "id": 8948,
+              "name": "Speeder",
+              "amount": 1
+            },
+            {
+              "id": 8960,
+              "name": "Spring-Loaded Fists",
+              "amount": 1
+            },
+            {
+              "id": 10038,
+              "name": "Waist Tied Sweater - Red",
+              "amount": 1
+            },
+            {
+              "id": 10040,
+              "name": "Waist Tied Sweater - Blue",
+              "amount": 1
+            },
+            {
+              "id": 10036,
+              "name": "Waist Tied Sweater - Green",
+              "amount": 1
+            },
+            {
+              "id": 10042,
+              "name": "Waist Tied Sweater - Yellow",
+              "amount": 1
+            },
+            {
+              "id": 10440,
+              "name": "Winter Swept Hair",
+              "amount": 1
+            },
+            {
+              "id": 9184,
+              "name": "Riding Eagle Owl",
+              "amount": 1
+            },
+            {
+              "id": 7718,
+              "name": "Toasted Villager Hat",
+              "amount": 1
+            },
+            {
+              "id": 6384,
+              "name": "Robot Legs",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "days": [
+            25
+          ],
+          "pool": [
+            {
+              "id": 802,
+              "name": "Red Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 1758,
+              "name": "Growboard",
+              "amount": 1
+            },
+            {
+              "id": 8468,
+              "name": "Howly Hat",
+              "amount": 1
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1
+            },
+            {
+              "id": 812,
+              "name": "Double Growsaber",
+              "amount": 1
+            },
+            {
+              "id": 10442,
+              "name": "Winter Light Launcher",
+              "amount": 1
+            },
+            {
+              "id": 9370,
+              "name": "Strange Eyes",
+              "amount": 1
+            },
+            {
+              "id": 8474,
+              "name": "Cupcake Hat",
+              "amount": 1
+            },
+            {
+              "id": 5018,
+              "name": "Riding Chicken",
+              "amount": 1
+            },
+            {
+              "id": 7752,
+              "name": "Gourmet Dragon Claw",
+              "amount": 1
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1
+            },
+            {
+              "id": 9182,
+              "name": "Frosty Wings",
+              "amount": 1
+            },
+            {
+              "id": 9184,
+              "name": "Riding Eagle Owl",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "odds": "unpublished; use explicit creative reward choice"
+    },
+    "12986": {
+      "year": 2022,
+      "source": "https://growtopiawiki.com/w/Winterfest_Calendar_-_2022",
+      "unlock_start_utc": "2022-12-01T05:00:00",
+      "limit": 25,
+      "used_item": 12988,
+      "groups": [
+        {
+          "days": [
+            1,
+            5,
+            9,
+            13,
+            18,
+            22
+          ],
+          "pool": [
+            {
+              "id": 11244,
+              "name": "Crystal of Hoa",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7088,
+              "name": "Ezio's Armguards",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7094,
+              "name": "Ezio's Boots",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11520,
+              "name": "Frozen Fountain",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7864,
+              "name": "Luxurious Wall Clock",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8976,
+              "name": "Droid Pet",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10486,
+              "name": "Snowy Tree Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11202,
+              "name": "Futuristic Sunglasses",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7498,
+              "name": "Nutcracker Boots",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8280,
+              "name": "Kitty Block",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8278,
+              "name": "Doggy Block",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            2,
+            6,
+            10,
+            14,
+            19,
+            23
+          ],
+          "pool": [
+            {
+              "id": 10054,
+              "name": "Zodiac Wings",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 1384,
+              "name": "Glowing Nose",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11192,
+              "name": "Conveyor Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11514,
+              "name": "Christmas Pudding Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8480,
+              "name": "Gem Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8554,
+              "name": "Caduceaxe",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7496,
+              "name": "Nutcracker Pants",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7090,
+              "name": "Ezio's Beard",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8546,
+              "name": "Vile Vial - Ecto-Bones",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 2564,
+              "name": "Chocolate Block",
+              "amount": 5,
+              "rarity": "Common"
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 5,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            3,
+            7,
+            11,
+            16,
+            20,
+            24
+          ],
+          "pool": [
+            {
+              "id": 11158,
+              "name": "Zodiac Ring",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 7490,
+              "name": "Nutcracker Hat",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10258,
+              "name": "Pigeon",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11520,
+              "name": "Frozen Fountain",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 3676,
+              "name": "Pet Trainer Whistle",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7086,
+              "name": "Ezio's Trousers",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7082,
+              "name": "Ezio's Vest",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10036,
+              "name": "Waist Tied Sweater - Green",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10042,
+              "name": "Waist Tied Sweater - Yellow",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11202,
+              "name": "Futuristic Sunglasses",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            4,
+            8,
+            12,
+            17,
+            21
+          ],
+          "pool": [
+            {
+              "id": 12302,
+              "name": "Lightning Horns",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 6414,
+              "name": "Star Tool Droid",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7080,
+              "name": "Ezio's Hood",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7422,
+              "name": "Snowfrost's Suit",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7758,
+              "name": "Prehistoric Dragon Claw",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 6384,
+              "name": "Robot Legs",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10032,
+              "name": "Axolotl Slippers",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11514,
+              "name": "Christmas Pudding Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11192,
+              "name": "Conveyor Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1368,
+              "name": "Snowball",
+              "amount": 10,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5382,
+              "name": "S'mores Block",
+              "amount": 2,
+              "rarity": "Common"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 5,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            15
+          ],
+          "pool": [
+            {
+              "id": 11080,
+              "name": "Cute Mutant Plonky",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11082,
+              "name": "Cute Mutant Boogle",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 7092,
+              "name": "Ezio's Hair",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10922,
+              "name": "Pegasus Lance",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10440,
+              "name": "Winter Swept Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11078,
+              "name": "Cute Mutant Wonky",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11500,
+              "name": "Sad Snowfrost's Mask",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9184,
+              "name": "Riding Eagle Owl",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7096,
+              "name": "Hay Cart",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7760,
+              "name": "Star Dragon Claw",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10038,
+              "name": "Waist Tied Sweater - Red",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7420,
+              "name": "Snowfrost's Mask",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10040,
+              "name": "Waist Tied Sweater - Blue",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7418,
+              "name": "Snowfrost's Top Hat",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8960,
+              "name": "Spring-Loaded Fists",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 9692,
+              "name": "Exo Suit Helmet",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8948,
+              "name": "Speeder",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8722,
+              "name": "Flower Headband",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            25
+          ],
+          "pool": [
+            {
+              "id": 8358,
+              "name": "The Beast with a Thousand Eyes Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11084,
+              "name": "Beowulf's Blade",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8372,
+              "name": "Giant Eye Head",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10878,
+              "name": "Radical Rider",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9182,
+              "name": "Frosty Wings",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11468,
+              "name": "Candy Cane Cruiser",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 5456,
+              "name": "Silverstar Bow",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7084,
+              "name": "Ezio's Cape",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7424,
+              "name": "Snowfrost's Candy Cane Blade",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7396,
+              "name": "Snowflake Eyes",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10442,
+              "name": "Winter Light Launcher",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 812,
+              "name": "Double Growsaber",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 802,
+              "name": "Red Growsaber",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 1758,
+              "name": "Growboard",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 9370,
+              "name": "Strange Eyes",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 7738,
+              "name": "Dragon Throne",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5018,
+              "name": "Riding Chicken",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8468,
+              "name": "Howly Hat",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 7752,
+              "name": "Gourmet Dragon Claw",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8474,
+              "name": "Cupcake Hat",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        }
+      ],
+      "odds": "unpublished; use explicit creative reward choice"
+    },
+    "14138": {
+      "year": 2023,
+      "source": "https://growtopiawiki.com/w/Winterfest_Calendar_-_2023",
+      "unlock_start_utc": "2023-12-01T05:00:00",
+      "limit": 25,
+      "used_item": 14140,
+      "groups": [
+        {
+          "days": [
+            1,
+            5,
+            9,
+            13,
+            18,
+            22
+          ],
+          "pool": [
+            {
+              "id": 9000,
+              "name": "Anubis Mail",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11244,
+              "name": "Crystal of Hoa",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11520,
+              "name": "Frozen Fountain",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7094,
+              "name": "Ezio's Boots",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7764,
+              "name": "Stone Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7088,
+              "name": "Ezio's Armguards",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 1396,
+              "name": "Doohickey",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 14108,
+              "name": "Three French Hen",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7864,
+              "name": "Luxurious Wall Clock",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8976,
+              "name": "Droid Pet",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10486,
+              "name": "Snowy Tree Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11202,
+              "name": "Futuristic Sunglasses",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7498,
+              "name": "Nutcracker Boots",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8280,
+              "name": "Kitty Block",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8278,
+              "name": "Doggy Block",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            2,
+            6,
+            10,
+            14,
+            19,
+            23
+          ],
+          "pool": [
+            {
+              "id": 1354,
+              "name": "Kerjigger",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10054,
+              "name": "Zodiac Wings",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7776,
+              "name": "Void Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7090,
+              "name": "Ezio's Beard",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7496,
+              "name": "Nutcracker Pants",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8554,
+              "name": "Caduceaxe",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8480,
+              "name": "Gem Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11514,
+              "name": "Christmas Pudding Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8546,
+              "name": "Vile Vial - Ecto-Bones",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 14108,
+              "name": "Three French Hen",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1384,
+              "name": "Glowing Nose",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11192,
+              "name": "Conveyor Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 9004,
+              "name": "Anubis Boots",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 2564,
+              "name": "Chocolate Block",
+              "amount": 5,
+              "rarity": "Common"
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 5,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            3,
+            7,
+            11,
+            16,
+            20,
+            24
+          ],
+          "pool": [
+            {
+              "id": 13688,
+              "name": "School Bag",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11158,
+              "name": "Zodiac Ring",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 7490,
+              "name": "Nutcracker Hat",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10042,
+              "name": "Waist Tied Sweater - Yellow",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7768,
+              "name": "Ghost Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10036,
+              "name": "Waist Tied Sweater - Green",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7082,
+              "name": "Ezio's Vest",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7086,
+              "name": "Ezio's Trousers",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9002,
+              "name": "Anubis Greaves",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10258,
+              "name": "Pigeon",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11520,
+              "name": "Frozen Fountain",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 3676,
+              "name": "Pet Trainer Whistle",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 14108,
+              "name": "Three French Hen",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 11202,
+              "name": "Futuristic Sunglasses",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            4,
+            8,
+            12,
+            17,
+            21
+          ],
+          "pool": [
+            {
+              "id": 13722,
+              "name": "Anime Bowtail",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 12302,
+              "name": "Lightning Horns",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 6414,
+              "name": "Star Tool Droid",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7772,
+              "name": "Water Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7080,
+              "name": "Ezio's Hood",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7422,
+              "name": "Snowfrost's Suit",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7758,
+              "name": "Prehistoric Dragon Claw",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 1368,
+              "name": "Snowball",
+              "amount": 10,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 5,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11192,
+              "name": "Conveyor Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 6384,
+              "name": "Robot Legs",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10032,
+              "name": "Axolotl Slippers",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11514,
+              "name": "Christmas Pudding Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 14108,
+              "name": "Three French Hen",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5382,
+              "name": "S'mores Block",
+              "amount": 2,
+              "rarity": "Common"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            15
+          ],
+          "pool": [
+            {
+              "id": 878,
+              "name": "Piglet Leash",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10922,
+              "name": "Pegasus Lance",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8996,
+              "name": "Anubis Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 12242,
+              "name": "bllade's Celestius",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 7092,
+              "name": "Ezio's Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10440,
+              "name": "Winter Swept Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11080,
+              "name": "Cute Mutant Plonky",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11082,
+              "name": "Cute Mutant Boogle",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7418,
+              "name": "Snowfrost's Top Hat",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8960,
+              "name": "Spring-Loaded Fists",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7760,
+              "name": "Star Dragon Claw",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11078,
+              "name": "Cute Mutant Wonky",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10040,
+              "name": "Waist Tied Sweater - Blue",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7420,
+              "name": "Snowfrost's Mask",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 9184,
+              "name": "Riding Eagle Owl",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10038,
+              "name": "Waist Tied Sweater - Red",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11500,
+              "name": "Sad Snowfrost's Mask",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7096,
+              "name": "Hay Cart",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 9692,
+              "name": "Exo Suit Helmet",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8948,
+              "name": "Speeder",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8722,
+              "name": "Flower Headband",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            25
+          ],
+          "pool": [
+            {
+              "id": 8358,
+              "name": "The Beast with a Thousand Eyes Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8944,
+              "name": "Sun Blade",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10108,
+              "name": "Growmoji Lol Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8372,
+              "name": "Giant Eye Head",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11084,
+              "name": "Beowulf's Blade",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9182,
+              "name": "Frosty Wings",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11468,
+              "name": "Candy Cane Cruiser",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10878,
+              "name": "Radical Rider",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7084,
+              "name": "Ezio's Cape",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7424,
+              "name": "Snowfrost's Candy Cane Blade",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 9370,
+              "name": "Strange Eyes",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1758,
+              "name": "Growboard",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 802,
+              "name": "Red Growsaber",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 812,
+              "name": "Double Growsaber",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5456,
+              "name": "Silverstar Bow",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5018,
+              "name": "Riding Chicken",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7396,
+              "name": "Snowflake Eyes",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10442,
+              "name": "Winter Light Launcher",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7738,
+              "name": "Dragon Throne",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8468,
+              "name": "Howly Hat",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 7752,
+              "name": "Gourmet Dragon Claw",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8474,
+              "name": "Cupcake Hat",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        }
+      ],
+      "odds": "unpublished; use explicit creative reward choice"
+    },
+    "15010": {
+      "year": 2024,
+      "source": "https://growtopiawiki.com/w/Winterfest_Calendar_-_2024",
+      "unlock_start_utc": "2024-12-01T05:00:00",
+      "limit": 25,
+      "used_item": 15008,
+      "groups": [
+        {
+          "days": [
+            1,
+            5,
+            9,
+            13,
+            18,
+            22
+          ],
+          "pool": [
+            {
+              "id": 9000,
+              "name": "Anubis Mail",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 976,
+              "name": "Sungate",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11244,
+              "name": "Crystal of Hoa",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11520,
+              "name": "Frozen Fountain",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7094,
+              "name": "Ezio's Boots",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7764,
+              "name": "Stone Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7088,
+              "name": "Ezio's Armguards",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 1396,
+              "name": "Doohickey",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7864,
+              "name": "Luxurious Wall Clock",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8976,
+              "name": "Droid Pet",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10486,
+              "name": "Snowy Tree Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11202,
+              "name": "Futuristic Sunglasses",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11518,
+              "name": "Partridge in a Pear Tree",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7498,
+              "name": "Nutcracker Boots",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8280,
+              "name": "Kitty Block",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8278,
+              "name": "Doggy Block",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            2,
+            6,
+            10,
+            14,
+            19,
+            23
+          ],
+          "pool": [
+            {
+              "id": 1354,
+              "name": "Kerjigger",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10054,
+              "name": "Zodiac Wings",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8546,
+              "name": "Vile Vial - Ecto-Bones",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 2036,
+              "name": "Antimatter Dust",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11514,
+              "name": "Christmas Pudding Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8480,
+              "name": "Gem Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8554,
+              "name": "Caduceaxe",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7496,
+              "name": "Nutcracker Pants",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7090,
+              "name": "Ezio's Beard",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7776,
+              "name": "Void Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9004,
+              "name": "Anubis Boots",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11192,
+              "name": "Conveyor Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1384,
+              "name": "Glowing Nose",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 2564,
+              "name": "Chocolate Block",
+              "amount": 5,
+              "rarity": "Common"
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 5,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            3,
+            7,
+            11,
+            16,
+            20,
+            24
+          ],
+          "pool": [
+            {
+              "id": 13688,
+              "name": "School Bag",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11158,
+              "name": "Zodiac Ring",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 2036,
+              "name": "Antimatter Dust",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9002,
+              "name": "Anubis Greaves",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7086,
+              "name": "Ezio's Trousers",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7082,
+              "name": "Ezio's Vest",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10036,
+              "name": "Waist Tied Sweater - Green",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7768,
+              "name": "Ghost Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10042,
+              "name": "Waist Tied Sweater - Yellow",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7490,
+              "name": "Nutcracker Hat",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 3676,
+              "name": "Pet Trainer Whistle",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11520,
+              "name": "Frozen Fountain",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10258,
+              "name": "Pigeon",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 14108,
+              "name": "Three French Hen",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 11202,
+              "name": "Futuristic Sunglasses",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            4,
+            8,
+            12,
+            17,
+            21
+          ],
+          "pool": [
+            {
+              "id": 13722,
+              "name": "Anime Bowtail",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 976,
+              "name": "Sungate",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 12302,
+              "name": "Lightning Horns",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 7758,
+              "name": "Prehistoric Dragon Claw",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7422,
+              "name": "Snowfrost's Suit",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7080,
+              "name": "Ezio's Hood",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7772,
+              "name": "Water Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 6414,
+              "name": "Star Tool Droid",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11514,
+              "name": "Christmas Pudding Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10032,
+              "name": "Axolotl Slippers",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1368,
+              "name": "Snowball",
+              "amount": 10,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 6384,
+              "name": "Robot Legs",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11192,
+              "name": "Conveyor Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 10,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 15006,
+              "name": "Four Calling Birds",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5382,
+              "name": "S'mores Block",
+              "amount": 2,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            15
+          ],
+          "pool": [
+            {
+              "id": 878,
+              "name": "Piglet Leash",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10922,
+              "name": "Pegasus Lance",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8996,
+              "name": "Anubis Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 15018,
+              "name": "Carousel Horse",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 4538,
+              "name": "Bridle Design",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 12242,
+              "name": "bllade's Celestius",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10440,
+              "name": "Winter Swept Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 2,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11082,
+              "name": "Cute Mutant Boogle",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11080,
+              "name": "Cute Mutant Plonky",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7092,
+              "name": "Ezio's Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 14680,
+              "name": "Think Tank Head",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11500,
+              "name": "Sad Snowfrost's Mask",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8960,
+              "name": "Spring-Loaded Fists",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7760,
+              "name": "Star Dragon Claw",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11078,
+              "name": "Cute Mutant Wonky",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10040,
+              "name": "Waist Tied Sweater - Blue",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7420,
+              "name": "Snowfrost's Mask",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 9184,
+              "name": "Riding Eagle Owl",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7418,
+              "name": "Snowfrost's Top Hat",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10038,
+              "name": "Waist Tied Sweater - Red",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7096,
+              "name": "Hay Cart",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 9692,
+              "name": "Exo Suit Helmet",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8948,
+              "name": "Speeder",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8722,
+              "name": "Flower Headband",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            25
+          ],
+          "pool": [
+            {
+              "id": 8358,
+              "name": "The Beast with a Thousand Eyes Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8944,
+              "name": "Sun Blade",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10108,
+              "name": "Growmoji Lol Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 13266,
+              "name": "Scarlet Macaw Wings",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11818,
+              "name": "Equinox Scarf",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 15020,
+              "name": "Holiday Lights Scarf",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 14664,
+              "name": "Aura of Zen",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8372,
+              "name": "Giant Eye Head",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 9182,
+              "name": "Frosty Wings",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7084,
+              "name": "Ezio's Cape",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10878,
+              "name": "Radical Rider",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11468,
+              "name": "Candy Cane Cruiser",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11084,
+              "name": "Beowulf's Blade",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10442,
+              "name": "Winter Light Launcher",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 9370,
+              "name": "Strange Eyes",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1758,
+              "name": "Growboard",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 802,
+              "name": "Red Growsaber",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 812,
+              "name": "Double Growsaber",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5456,
+              "name": "Silverstar Bow",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5018,
+              "name": "Riding Chicken",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7424,
+              "name": "Snowfrost's Candy Cane Blade",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7396,
+              "name": "Snowflake Eyes",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7738,
+              "name": "Dragon Throne",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8468,
+              "name": "Howly Hat",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 7752,
+              "name": "Gourmet Dragon Claw",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8474,
+              "name": "Cupcake Hat",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        }
+      ],
+      "odds": "unpublished; use explicit creative reward choice"
+    },
+    "15822": {
+      "year": 2025,
+      "source": "https://growtopiawiki.com/w/Winterfest_Calendar_-_2025",
+      "unlock_start_utc": "2025-12-01T05:00:00",
+      "limit": 25,
+      "used_item": 15824,
+      "groups": [
+        {
+          "days": [
+            1,
+            5,
+            9,
+            13,
+            18,
+            22
+          ],
+          "pool": [
+            {
+              "id": 9000,
+              "name": "Anubis Mail",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 976,
+              "name": "Sungate",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11244,
+              "name": "Crystal of Hoa",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 1396,
+              "name": "Doohickey",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7088,
+              "name": "Ezio's Armguards",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7764,
+              "name": "Stone Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7094,
+              "name": "Ezio's Boots",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11520,
+              "name": "Frozen Fountain",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 5430,
+              "name": "Lumberjack Coat - Olive",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7864,
+              "name": "Luxurious Wall Clock",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 15838,
+              "name": "Five Golden Rings",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11518,
+              "name": "Partridge in a Pear Tree",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11202,
+              "name": "Futuristic Sunglasses",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10486,
+              "name": "Snowy Tree Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8976,
+              "name": "Droid Pet",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7498,
+              "name": "Nutcracker Boots",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8280,
+              "name": "Kitty Block",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8278,
+              "name": "Doggy Block",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            2,
+            6,
+            10,
+            14,
+            19,
+            23
+          ],
+          "pool": [
+            {
+              "id": 1354,
+              "name": "Kerjigger",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10054,
+              "name": "Zodiac Wings",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 2036,
+              "name": "Antimatter Dust",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8546,
+              "name": "Vile Vial - Ecto-Bones",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11514,
+              "name": "Christmas Pudding Block",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8480,
+              "name": "Gem Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 8554,
+              "name": "Caduceaxe",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7496,
+              "name": "Nutcracker Pants",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7090,
+              "name": "Ezio's Beard",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7776,
+              "name": "Void Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9004,
+              "name": "Anubis Boots",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11192,
+              "name": "Conveyor Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 15864,
+              "name": "Gingerbread Sign",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 12918,
+              "name": "Two Turtle Doves",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1384,
+              "name": "Glowing Nose",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5432,
+              "name": "Lumberjack Coat - Navy",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10488,
+              "name": "Snowy Fence",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 2564,
+              "name": "Chocolate Block",
+              "amount": 5,
+              "rarity": "Common"
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 5,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            3,
+            7,
+            11,
+            16,
+            20,
+            24
+          ],
+          "pool": [
+            {
+              "id": 13688,
+              "name": "School Bag",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11158,
+              "name": "Zodiac Ring",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 2036,
+              "name": "Antimatter Dust",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9002,
+              "name": "Anubis Greaves",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7086,
+              "name": "Ezio's Trousers",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7082,
+              "name": "Ezio's Vest",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10036,
+              "name": "Waist Tied Sweater - Green",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7768,
+              "name": "Ghost Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10042,
+              "name": "Waist Tied Sweater - Yellow",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7490,
+              "name": "Nutcracker Hat",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 3676,
+              "name": "Pet Trainer Whistle",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11520,
+              "name": "Frozen Fountain",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10258,
+              "name": "Pigeon",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 15864,
+              "name": "Gingerbread Sign",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5428,
+              "name": "Lumberjack Coat - Scarlet",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 14108,
+              "name": "Three French Hen",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 11202,
+              "name": "Futuristic Sunglasses",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 5446,
+              "name": "Puffy Blue Jacket",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 10444,
+              "name": "Gavle Goat",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            4,
+            8,
+            12,
+            17,
+            21
+          ],
+          "pool": [
+            {
+              "id": 13722,
+              "name": "Anime Bowtail",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 976,
+              "name": "Sungate",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 12302,
+              "name": "Lightning Horns",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 974,
+              "name": "Obelisk",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 9202,
+              "name": "Snowtopian",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 6414,
+              "name": "Star Tool Droid",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7772,
+              "name": "Water Egg",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7080,
+              "name": "Ezio's Hood",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7422,
+              "name": "Snowfrost's Suit",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7758,
+              "name": "Prehistoric Dragon Claw",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11514,
+              "name": "Christmas Pudding Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 15838,
+              "name": "Five Golden Rings",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 15006,
+              "name": "Four Calling Birds",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1360,
+              "name": "Winter Gift",
+              "amount": 5,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5434,
+              "name": "Lumberjack Coat - Midnight",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11192,
+              "name": "Conveyor Block",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 6384,
+              "name": "Robot Legs",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1368,
+              "name": "Snowball",
+              "amount": 10,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10032,
+              "name": "Axolotl Slippers",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5382,
+              "name": "S'mores Block",
+              "amount": 2,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            15
+          ],
+          "pool": [
+            {
+              "id": 878,
+              "name": "Piglet Leash",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10922,
+              "name": "Pegasus Lance",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8996,
+              "name": "Anubis Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 15018,
+              "name": "Carousel Horse",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 4538,
+              "name": "Bridle Design",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 12242,
+              "name": "bllade's Celestius",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10440,
+              "name": "Winter Swept Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 262,
+              "name": "Crystal Block",
+              "amount": 2,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11082,
+              "name": "Cute Mutant Boogle",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11080,
+              "name": "Cute Mutant Plonky",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7092,
+              "name": "Ezio's Hair",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 14680,
+              "name": "Think Tank Head",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11500,
+              "name": "Sad Snowfrost's Mask",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 8960,
+              "name": "Spring-Loaded Fists",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7760,
+              "name": "Star Dragon Claw",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 11078,
+              "name": "Cute Mutant Wonky",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10040,
+              "name": "Waist Tied Sweater - Blue",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7420,
+              "name": "Snowfrost's Mask",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 9184,
+              "name": "Riding Eagle Owl",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7418,
+              "name": "Snowfrost's Top Hat",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 10038,
+              "name": "Waist Tied Sweater - Red",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7096,
+              "name": "Hay Cart",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 9692,
+              "name": "Exo Suit Helmet",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8948,
+              "name": "Speeder",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8722,
+              "name": "Flower Headband",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        },
+        {
+          "days": [
+            25
+          ],
+          "pool": [
+            {
+              "id": 8358,
+              "name": "The Beast with a Thousand Eyes Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8944,
+              "name": "Sun Blade",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 10108,
+              "name": "Growmoji Lol Mask",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 13266,
+              "name": "Scarlet Macaw Wings",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 11818,
+              "name": "Equinox Scarf",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 15020,
+              "name": "Holiday Lights Scarf",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 14664,
+              "name": "Aura of Zen",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 8372,
+              "name": "Giant Eye Head",
+              "amount": 1,
+              "rarity": "Epic"
+            },
+            {
+              "id": 9182,
+              "name": "Frosty Wings",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 7084,
+              "name": "Ezio's Cape",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10878,
+              "name": "Radical Rider",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 15854,
+              "name": "Riding Hot Chocolate",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11468,
+              "name": "Candy Cane Cruiser",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 11084,
+              "name": "Beowulf's Blade",
+              "amount": 1,
+              "rarity": "Rare"
+            },
+            {
+              "id": 10442,
+              "name": "Winter Light Launcher",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 9370,
+              "name": "Strange Eyes",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 1758,
+              "name": "Growboard",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 802,
+              "name": "Red Growsaber",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 812,
+              "name": "Double Growsaber",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5456,
+              "name": "Silverstar Bow",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 5018,
+              "name": "Riding Chicken",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7424,
+              "name": "Snowfrost's Candy Cane Blade",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7396,
+              "name": "Snowflake Eyes",
+              "amount": 1,
+              "rarity": "Uncommon"
+            },
+            {
+              "id": 7738,
+              "name": "Dragon Throne",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8468,
+              "name": "Howly Hat",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8556,
+              "name": "SurgWorld Blast",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 7752,
+              "name": "Gourmet Dragon Claw",
+              "amount": 1,
+              "rarity": "Common"
+            },
+            {
+              "id": 8474,
+              "name": "Cupcake Hat",
+              "amount": 1,
+              "rarity": "Common"
+            }
+          ]
+        }
+      ],
+      "odds": "unpublished; use explicit creative reward choice"
+    }
+  },
+  "well": {
+    "source": "https://growtopiawiki.com/w/Well_of_Love",
+    "chest": 3402,
+    "dry": 10658,
+    "essence": 10660,
+    "epic": [
+      1458,
+      11672,
+      13140,
+      14236,
+      15194
+    ],
+    "chests_per_use": 5,
+    "capacity": 200,
+    "essence_chance_per_10000": 9675,
+    "pool": [
+      {
+        "id": 362,
+        "name": "Angel Wings",
+        "amount": 1
+      },
+      {
+        "id": 13118,
+        "name": "Bear That Cares",
+        "amount": 1
+      },
+      {
+        "id": 3398,
+        "name": "Booty Chest",
+        "amount": 1
+      },
+      {
+        "id": 14230,
+        "name": "Bridal Dress with Train",
+        "amount": 1
+      },
+      {
+        "id": 386,
+        "name": "Candy Heart",
+        "amount": 1
+      },
+      {
+        "id": 4422,
+        "name": "Chocolate Heart",
+        "amount": 1
+      },
+      {
+        "id": 13150,
+        "name": "Cotton Candy Swirl",
+        "amount": 1
+      },
+      {
+        "id": 13152,
+        "name": "Cotton Candy Swirl Background",
+        "amount": 1
+      },
+      {
+        "id": 11692,
+        "name": "Dancing Candle",
+        "amount": 1
+      },
+      {
+        "id": 9342,
+        "name": "Datemaster's Bling",
+        "amount": 1
+      },
+      {
+        "id": 9340,
+        "name": "Datemaster's Rose",
+        "amount": 1
+      },
+      {
+        "id": 9334,
+        "name": "Dating Dandy's Hair",
+        "amount": 1
+      },
+      {
+        "id": 9332,
+        "name": "Dating Dandy's Suit",
+        "amount": 1
+      },
+      {
+        "id": 9336,
+        "name": "Dating Vixen's Dress",
+        "amount": 1
+      },
+      {
+        "id": 9338,
+        "name": "Dating Vixen's Hair",
+        "amount": 1
+      },
+      {
+        "id": 364,
+        "name": "Diaper",
+        "amount": 1
+      },
+      {
+        "id": 11682,
+        "name": "Formal Rose Jacket",
+        "amount": 1
+      },
+      {
+        "id": 11686,
+        "name": "Formal Rose Pants",
+        "amount": 1
+      },
+      {
+        "id": 11684,
+        "name": "Formal Rose Skirt",
+        "amount": 1
+      },
+      {
+        "id": 1458,
+        "name": "Golden Heart Crystal",
+        "amount": 1
+      },
+      {
+        "id": 15192,
+        "name": "Good Witch's Wand",
+        "amount": 1
+      },
+      {
+        "id": 14242,
+        "name": "Groom's Coat",
+        "amount": 1
+      },
+      {
+        "id": 14244,
+        "name": "Half Up Hairstyle",
+        "amount": 1
+      },
+      {
+        "id": 14236,
+        "name": "Harp of Love",
+        "amount": 1
+      },
+      {
+        "id": 4400,
+        "name": "Heart Awning",
+        "amount": 1
+      },
+      {
+        "id": 366,
+        "name": "Heartbow",
+        "amount": 1
+      },
+      {
+        "id": 2388,
+        "name": "Heartbreaker Hammer",
+        "amount": 1
+      },
+      {
+        "id": 7808,
+        "name": "Heartcastle Stone",
+        "amount": 1
+      },
+      {
+        "id": 7810,
+        "name": "Heartcastle Stone Background",
+        "amount": 1
+      },
+      {
+        "id": 4416,
+        "name": "Heart Glasses",
+        "amount": 1
+      },
+      {
+        "id": 7818,
+        "name": "Heartking's Crown",
+        "amount": 1
+      },
+      {
+        "id": 7820,
+        "name": "Heartking's Robes",
+        "amount": 1
+      },
+      {
+        "id": 5652,
+        "name": "Heart Necklace",
+        "amount": 1
+      },
+      {
+        "id": 7822,
+        "name": "Heartqueen's Crown",
+        "amount": 1
+      },
+      {
+        "id": 7824,
+        "name": "Heartqueen's Robes",
+        "amount": 1
+      },
+      {
+        "id": 5644,
+        "name": "Heart Shirt",
+        "amount": 1
+      },
+      {
+        "id": 390,
+        "name": "Heartstone Block",
+        "amount": 1
+      },
+      {
+        "id": 7826,
+        "name": "Heartstaff",
+        "amount": 1
+      },
+      {
+        "id": 7830,
+        "name": "Heartsword",
+        "amount": 1
+      },
+      {
+        "id": 9324,
+        "name": "Heartthrob Helm",
+        "amount": 1
+      },
+      {
+        "id": 5658,
+        "name": "Love Birds",
+        "amount": 1
+      },
+      {
+        "id": 3396,
+        "name": "Lovebird Pendant",
+        "amount": 1
+      },
+      {
+        "id": 2384,
+        "name": "Love Bug",
+        "amount": 1
+      },
+      {
+        "id": 10652,
+        "name": "Love Charged Hands",
+        "amount": 1
+      },
+      {
+        "id": 5660,
+        "name": "Love Curtain",
+        "amount": 1
+      },
+      {
+        "id": 10654,
+        "name": "Love Portal",
+        "amount": 1
+      },
+      {
+        "id": 4418,
+        "name": "Loveseat",
+        "amount": 1
+      },
+      {
+        "id": 4412,
+        "name": "Pegasus",
+        "amount": 1
+      },
+      {
+        "id": 388,
+        "name": "Perfume",
+        "amount": 1
+      },
+      {
+        "id": 3408,
+        "name": "Pink Marble Arch",
+        "amount": 1
+      },
+      {
+        "id": 13144,
+        "name": "Rink of Love",
+        "amount": 1
+      },
+      {
+        "id": 14252,
+        "name": "Romantic Pic-Nic Basket",
+        "amount": 1
+      },
+      {
+        "id": 15196,
+        "name": "Rose Cape",
+        "amount": 1
+      },
+      {
+        "id": 10626,
+        "name": "Rose Rifle",
+        "amount": 1
+      },
+      {
+        "id": 1470,
+        "name": "Ruby Necklace",
+        "amount": 1
+      },
+      {
+        "id": 10632,
+        "name": "Silk Scarf",
+        "amount": 1
+      },
+      {
+        "id": 3404,
+        "name": "Sour Lollipop",
+        "amount": 1
+      },
+      {
+        "id": 13132,
+        "name": "Strawberry Dress",
+        "amount": 1
+      },
+      {
+        "id": 13130,
+        "name": "Strawberry Hair",
+        "amount": 1
+      },
+      {
+        "id": 3406,
+        "name": "Sweet Lollipop",
+        "amount": 1
+      },
+      {
+        "id": 10662,
+        "name": "Tattooed Muscles",
+        "amount": 1
+      },
+      {
+        "id": 2390,
+        "name": "Teeny Angel Wings",
+        "amount": 1
+      },
+      {
+        "id": 5656,
+        "name": "Teddy Bear Block",
+        "amount": 1
+      },
+      {
+        "id": 5648,
+        "name": "USMom's Talaria",
+        "amount": 1
+      },
+      {
+        "id": 2396,
+        "name": "Valensign",
+        "amount": 1
+      },
+      {
+        "id": 384,
+        "name": "Valentine",
+        "amount": 1
+      },
+      {
+        "id": 5664,
+        "name": "Valentine's Card",
+        "amount": 1
+      },
+      {
+        "id": 4424,
+        "name": "Valentine Dress",
+        "amount": 1
+      }
+    ],
+    "pool_odds": "Unknown original best-of-five distribution; explicit creative choice"
+  },
+  "providers": {
+    "16104": {
+      "source": "https://growtopiawiki.com/w/Gumball_Machine",
+      "output": 1772,
+      "min": 1,
+      "max": 2,
+      "seconds": 79200
+    },
+    "16238": {
+      "source": "https://growtopiawiki.com/w/Ice_Cream_Truck",
+      "output": 6316,
+      "min": 1,
+      "max": 2,
+      "seconds": 79200
+    }
+  }
+}

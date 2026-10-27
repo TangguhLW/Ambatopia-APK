@@ -1,0 +1,29 @@
+import {readFile,writeFile,copyFile,mkdir,readdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const out='evidence/multiplayer-2026-10-23',board='evidence/fidelity-2026-10-22';
+const parse=async path=>JSON.parse(await readFile(path,'utf8'));
+const windows=await parse('evidence/windows/qa-report.json'),android=await parse('evidence/android/qa-report.json'),protocol=await parse(out+'/protocol-64.json');
+if(windows.failures.length||android.failures.length||protocol.failures.length||protocol.clients!==64)throw Error('Runtime evidence has failures');
+const log=await readFile('evidence/verified-unit-tests.log','utf8'),count=/CHECKS: (\d+) FAILED: 0/.exec(log);
+if(!count||/SCRIPT ERROR|ERROR:|FAIL:/.test(log))throw Error('Unit verification failed');
+const nodeLog=await readFile('evidence/verified-asset-tests.log','utf8');
+if(!/tests 18/.test(nodeLog)||!/fail 0/.test(nodeLog))throw Error('Data/audio verification failed');
+const layout=await parse('evidence/catalog-2026-10-22/layout.json');if(layout.some(row=>!row.fits))throw Error('Layout overflow');
+const coverage=await parse('research/catalog/coverage.json');
+const report={date:'2026-10-23',version:'0.4.0-shared',ambatopia_changes:false,subagents:false,public_deployment:false,verified:{godot_checks:Number(count[1]),node_checks:18,windows_exported_checks:windows.checks.length,physical_android_checks:android.checks.length,capacity_clients:64,protocol_checks:protocol.checks.length,rendered_action_checks:await parse(out+'/action-render.json'),layout},catalog:{resource_version:27,metadata:coverage.parsed,previews:coverage.preview,clothing_total:4036,static_wearable:coverage.equipment,clothing_not_supported:4036-coverage.equipment,gameplay_item_abilities:4,abilities:['Fairy Wings double jump','Angel Wings double jump','Golden Angel Wings double jump','Pickaxe enhanced digging'],native_effect_references_unimplemented:coverage.effect_reference_entries},fixed:['Protected-block punch still animates and plays sound','Tile-click punch preserves target; dedicated fist never places','World Lock duplicate placement rejected','Original cropped chat icon and portrait minimum touch target','Persistent click feedback and non-silent WAV sources','Native cloud action sprite sequence','Current-outfit-only cache and shared live texture reuse','Responsive login and paged wardrobe'],multiplayer:{transport:'WebSocket',listener:'127.0.0.1:4192',android_transport:'USB adb reverse for this project port',server:'Same Windows EXE --headless --server',authority:['movement','block mutations','session locks','equipment','chat'],accounts:'anonymous session profiles',world_persistence:'in memory; session lock removed on owner disconnect'},timings:{windows:windows.timings_ms,android:android.timings_ms},artifacts:[],limits:['2,956 special clothing entries remain preview/metadata-only; no full wardrobe/effects claim','Native animation cadence, precise anchors and ability constants remain partly provisional','Session multiplayer is tested on loopback/USB; no public deployment, durable accounts or persistent multiplayer ownership','64-client test uses software clients on one PC, not 64 physical devices or an Internet latency test','Android portrait uses renderer captures; physical Android testing is landscape','Short-sample frame p95 remains above 16.7 ms; no zero-lag or 100% fidelity claim']};
+for(const path of ['build/windows/GrowtopiaReconstruction.exe','build/android/GrowtopiaReconstruction.apk']){const b=await readFile(path);report.artifacts.push({path,bytes:b.length,sha256:createHash('sha256').update(b).digest('hex')});}
+await mkdir(out,{recursive:true});
+for(const platform of ['windows','android'])for(const file of ['qa-report.json','network.png','runtime-log.txt'])await copyFile(`evidence/${platform}/${file}`,`${out}/${platform}-${file}`);
+for(const platform of ['windows','android'])await copyFile(`evidence/${platform}/qa-report.json`,`${out}/${platform}-qa.json`);
+for(const file of (await readdir('evidence/catalog-2026-10-22')).filter(f=>f.endsWith('.png')))await copyFile('evidence/catalog-2026-10-22/'+file,out+'/'+file);
+await writeFile(out+'/result.json',JSON.stringify(report,null,2));
+await copyFile('evidence/acceptance.json',out+'/previous-acceptance.json');
+await writeFile('evidence/acceptance.json',JSON.stringify(report,null,2));
+await mkdir(board+'/shared',{recursive:true});
+for(const file of ['windows-network.png','android-network.png','action-strip.png','wardrobe-390x844.png']){
+ await copyFile(out+'/'+file,board+'/shared/'+file);
+}
+let html=await readFile(board+'/comparison.html','utf8');html=html.replace(/<section id="shared-update">[\s\S]*?<\/section>/,'');
+const section='<section id="shared-update"><h2>23 Oktober — wardrobe, aksi dan shared session</h2><p>1.080 wearable statis; 4 ability item; 1.267 pemeriksaan Godot; 18 tes data/audio; 29 pemeriksaan pada masing-masing Windows dan HP. Server paket EXE diuji dengan 64 client loopback. Multiplayer saat ini sesi lokal PC–HP via USB, belum layanan Internet atau akun persisten.</p><div class="pair"><figure><figcaption>Windows melihat Android</figcaption><img src="shared/windows-network.png"></figure><figure><figcaption>Android melihat Windows</figcaption><img src="shared/android-network.png"></figure></div><h3>Idle, windup, punch, walk, jump — render aktual</h3><img src="shared/action-strip.png"><details><summary>Wardrobe portrait</summary><img src="shared/wardrobe-390x844.png"></details><p>Timing native dan efek/pakaian khusus masih memiliki batas yang tercatat dalam laporan. Ambatopia tidak diubah.</p></section>';
+html=html.replace('</html>',section+'</html>');await writeFile(board+'/comparison.html',html);
+console.log(JSON.stringify({verified:report.verified,catalog:report.catalog,artifacts:report.artifacts},null,2));

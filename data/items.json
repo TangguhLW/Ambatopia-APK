@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "identity": "Local reconstruction IDs, not recovered official item IDs",
+  "items": [
+    {"id":0,"name":"Air","kind":"empty","solid":false},
+    {"id":1,"name":"Dirt","kind":"block","solid":true,"actions":["place","punch","wrench"]},
+    {"id":2,"name":"Bedrock","kind":"protected","solid":true,"actions":["wrench"]},
+    {"id":3,"name":"Rock","kind":"block","solid":true,"actions":["place","punch","wrench"]},
+    {"id":4,"name":"Main Door","kind":"door","solid":false,"actions":["wrench"]},
+    {"id":5,"name":"World Lock (visual only)","kind":"block","solid":true,"actions":["place","punch","wrench"]},
+    {"id":6,"name":"Bricks","kind":"block","solid":true,"actions":["place","punch","wrench"]}
+  ]
+}
